@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on CodeCraft</title><link>https://jogsdevs.github.io/tutorial/</link><description>Recent content in Tutorials on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/tutorial/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/belajar-html/</guid><description>&lt;p>Di halaman ini, kamu bisa menjelajahi berbagai kategori tutorial dan artikel yang kami tawarkan. Kami telah mengorganisir konten kami untuk membantu kamu menemukan topik yang paling relevan dengan minat atau kebutuhan kamu.&lt;/p></description></item><item><title>Belajar Syntax Markdown Dasar</title><link>https://jogsdevs.github.io/tutorial/markdown-syntax/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>More Rich Content</title><link>https://jogsdevs.github.io/tutorial/more-rich-content/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/more-rich-content/</guid><description>Tutorial lengkap Rich untuk pemula.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on CodeCraft</title><link>https://jogsdevs.github.io/tutorial/</link><description>Recent content in Tutorials on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</title><link>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</guid><description>&lt;p>Ingin website Hugo kamu langsung online setiap kali push? Di artikel ini, kita akan belajar cara &lt;strong>deploy website Hugo&lt;/strong> yang menggunakan &lt;strong>TailwindCSS CLI&lt;/strong> ke &lt;strong>GitHub Pages&lt;/strong> secara otomatis menggunakan &lt;strong>GitHub Actions&lt;/strong>.&lt;/p>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ 🚀 Apa yang Akan Kita Bangun?
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>Hugo dengan TailwindCSS (pakai &lt;code>tailwindcss-cli&lt;/code>)&lt;/li>
+&lt;li>Auto-deploy dari branch &lt;code>main&lt;/code> ke &lt;code>gh-pages&lt;/code>&lt;/li>
+&lt;li>GitHub Actions sebagai CI/CD pipeline&lt;/li>
+&lt;li>CSS hasil Tailwind sudah teroptimasi dan minify&lt;/li>
+&lt;/ul>
+&lt;hr>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ 🧱 1. Struktur Branch
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;code>main&lt;/code>: tempat kamu menulis konten, ngoding layout, styling, dsb.&lt;/li>
+&lt;li>&lt;code>gh-pages&lt;/code>: berisi hasil build Hugo yang akan tampil di GitHub Pages.&lt;/li>
+&lt;/ul>
+&lt;hr>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ 🛠️ 2. Konfigurasi &lt;code>hugo.toml&lt;/code>
+ &lt;/h2>
+
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+ &lt;code>&lt;div class="">baseURL = &amp;#39;https://[jogsdevs.github.io](https://jogsdevs.github.io/)/&amp;#39;&lt;/div>
+ &lt;div class="">languageCode = &amp;#39;id&amp;#39;&lt;/div>
+ &lt;div class="">title = &amp;#39;CodeCraft&amp;#39;&lt;/div>
+ &lt;div class="">publishDir = &amp;#39;public&amp;#39;&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class="">[markup]&lt;/div>
+ &lt;div class=""> [markup.highlight]&lt;/div>
+ &lt;div class=""> noClasses = false&lt;/div>
+ &lt;div class=""> style = &amp;#34;monokai&amp;#34;&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> [markup.goldmark.renderer]&lt;/div>
+ &lt;div class=""> unsafe = true&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class="">ignoreLogs = [&amp;#34;warning-goldmark-raw-html&amp;#34;]&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="baseURL = &amp;#39;https://[jogsdevs.github.io](https://jogsdevs.github.io/)/&amp;#39;
+languageCode = &amp;#39;id&amp;#39;
+title = &amp;#39;CodeCraft&amp;#39;
+publishDir = &amp;#39;public&amp;#39;
+
+[markup]
+ [markup.highlight]
+ noClasses = false
+ style = &amp;#34;monokai&amp;#34;
+
+ [markup.goldmark.renderer]
+ unsafe = true
+
+ignoreLogs = [&amp;#34;warning-goldmark-raw-html&amp;#34;]">
+ Copy
+ &lt;/button>
+&lt;/div></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/tutorial/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/belajar-html/</guid><description>&lt;p>Di halaman ini, kamu bisa menjelajahi berbagai kategori tutorial dan artikel yang kami tawarkan. Kami telah mengorganisir konten kami untuk membantu kamu menemukan topik yang paling relevan dengan minat atau kebutuhan kamu.&lt;/p></description></item><item><title>Belajar Syntax Markdown Dasar</title><link>https://jogsdevs.github.io/tutorial/markdown-syntax/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>More Rich Content</title><link>https://jogsdevs.github.io/tutorial/more-rich-content/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/more-rich-content/</guid><description>Tutorial lengkap Rich untuk pemula.</description></item></channel></rss>
