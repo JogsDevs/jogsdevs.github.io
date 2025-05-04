@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSS on CodeCraft</title><link>https://jogsdevs.github.io/kategori/css/</link><description>Recent content in CSS on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Belajar CSS Dasar</title><link>https://jogsdevs.github.io/kategori/css/belajar-css-dasar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/belajar-css-dasar/</guid><description>&lt;p>CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan halaman HTML. Contohnya:&lt;/p>
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+ &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
+ &lt;div class=""> body {&lt;/div>
+ &lt;div class=""> background-color: #f0f0f0;&lt;/div>
+ &lt;div class=""> font-family: sans-serif;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> h1 {&lt;/div>
+ &lt;div class=""> color: navy;&lt;/div>
+ &lt;div class=""> text-align: center;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="">
+ Copy
+ &lt;/button>
+&lt;/div></description></item><item><title>Memahami Box Model di CSS</title><link>https://jogsdevs.github.io/kategori/css/box-model/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/box-model/</guid><description>&lt;p>CSS Box Model adalah konsep dasar yang digunakan untuk mendesain elemen di halaman web. Setiap elemen HTML diperlakukan sebagai sebuah kotak, dan memiliki bagian-bagian berikut:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Content&lt;/strong>: Isi dari elemen.&lt;/li>
+&lt;li>&lt;strong>Padding&lt;/strong>: Ruang di sekitar konten, di dalam elemen.&lt;/li>
+&lt;li>&lt;strong>Border&lt;/strong>: Garis yang mengelilingi padding (jika ada).&lt;/li>
+&lt;li>&lt;strong>Margin&lt;/strong>: Ruang di luar border.&lt;/li>
+&lt;/ol>
+&lt;p>Contoh penggunaan Box Model:&lt;/p>
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+ &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
+ &lt;div class=""> div {&lt;/div>
+ &lt;div class=""> width: 300px;&lt;/div>
+ &lt;div class=""> height: 200px;&lt;/div>
+ &lt;div class=""> padding: 20px;&lt;/div>
+ &lt;div class=""> border: 5px solid black;&lt;/div>
+ &lt;div class=""> margin: 15px;&lt;/div>
+ &lt;div class=""> background-color: lightgray;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class="">&amp;lt;div&amp;gt;Ini adalah kotak dengan Box Model&amp;lt;/div&amp;gt;&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code=" Ini adalah kotak dengan Box Model">
+ Copy
+ &lt;/button>
+&lt;/div></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/css/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
+&lt;p>Contoh CSS untuk responsive design:&lt;/p>
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+ &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
+ &lt;div class=""> /* Default untuk desktop */&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 80%;&lt;/div>
+ &lt;div class=""> margin: 0 auto;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> /* Untuk tablet */&lt;/div>
+ &lt;div class=""> @media (max-width: 768px) {&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 90%;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> /* Untuk ponsel */&lt;/div>
+ &lt;div class=""> @media (max-width: 480px) {&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 100%;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class="">&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;/div&amp;gt;&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code=" Responsive Design Halaman ini akan menyesuaikan dengan ukuran layar perangkat.
+">
+ Copy
+ &lt;/button>
+&lt;/div></description></item></channel></rss>
