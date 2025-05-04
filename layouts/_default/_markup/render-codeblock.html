@@ -1,0 +1,20 @@
+<div class="relative group my-6 text-sm font-mono">
+  <pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+    <code>
+      {{- $lines := split (.Inner | htmlUnescape) "\n" -}}
+      {{- range $i, $line := $lines -}}
+        {{- $highlight := false -}}
+        {{- if in $line "// highlight-line" -}}
+          {{- $highlight = true -}}
+          {{- $line = replace $line "// highlight-line" "" -}}
+        {{- end -}}
+      <div class="{{ if $highlight }}bg-yellow-500/10 border-l-4 border-yellow-400 pl-2{{ end }}">{{ $line }}</div>
+        {{ end }}
+    </code>
+  </pre>
+  <button
+    class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+    data-code="{{ .Inner | htmlUnescape | plainify }}">
+    Copy
+  </button>
+</div>

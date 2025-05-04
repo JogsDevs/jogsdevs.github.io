@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="max-w-4xl mx-auto px-4 py-10">
+  <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+  <ul class="space-y-4">
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="text-xl text-teal-600 hover:underline">{{ .Title }}</a>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ .Params.description }}</p>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

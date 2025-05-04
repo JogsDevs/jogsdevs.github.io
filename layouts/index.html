@@ -1,0 +1,106 @@
+{{ define "main" }}
+
+<!-- HERO SECTION -->
+{{ partial "hero.html" . }}
+
+<!-- KATEGORI CARD SECTION -->
+<section class="py-16 bg-slate-50 dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-sm font-bold uppercase text-gray-400 mb-2">
+      Kategori</div>
+    <h2 class="text-3xl font-bold tracking-tight mb-2 text-left">
+      Mau belajar apa hari ini?
+    </h2>
+    <p class="text-lg mb-8 text-slate-500 dark:text-slate-300 text-left">
+      Temukan tutorial berdasarkan minatmu.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {{ range where (where (where .Site.Pages "Section" "kategori") "IsSection" true) "File.Path" "!=" "kategori/_index.md" }}
+        <a href="{{ .RelPermalink }}"
+           class="block p-6 bg-gray-100 text-slate-800 dark:bg-gray-800 dark:text-white rounded-xl shadow hover:shadow-lg transition-all flex flex-col justify-start">
+          <h3 class="text-lg font-semibold mb-2 flex items-center gap-2">
+            <i data-lucide="{{ .Params.icon }}" class="w-5 h-5 text-yellow-500 dark:text-yellow-400"></i>
+            {{ .Title }}
+          </h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">{{ .Params.description }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- UPDATE KONTEN / TUTORIAL TERBARU -->
+<section class="py-16 bg-slate-50 dark:bg-slate-900">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-sm font-bold uppercase text-gray-400 mb-2">
+      Update</div>
+    <h3 class="text-xl font-semibold mb-6 text-gray-800 dark:text-white text-left">
+      Apa yang baru di Petani Kode? 🔥
+    </h3>
+    <p class="mb-6 text-lg text-gray-600 dark:text-gray-300 text-left">
+      Baca artikel terbaru yang masih fresh dan hangat.
+    </p>
+
+    {{ $pages := where .Site.RegularPages "Section" "tutorial" }}
+    {{ $paginator := .Paginate $pages }}
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {{ range $paginator.Pages }}
+        <a href="{{ .RelPermalink }}"
+           class="flex items-start gap-4 p-6 bg-slate-100 text-slate-800 dark:bg-gray-800 dark:text-white rounded-xl shadow hover:shadow-2xl hover:scale-105 hover:bg-slate-200 dark:hover:bg-gray-700 hover:animate-wobble transition-all">
+          
+          <!-- Gambar atau Icon -->
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="w-16 h-16 rounded-md object-cover" />
+          {{ else }}
+            <div class="w-16 h-16 bg-yellow-200 dark:bg-yellow-400 rounded-md flex items-center justify-center">
+              <i data-lucide="file-text" class="w-6 h-6 text-yellow-800"></i>
+            </div>
+          {{ end }}
+
+          <!-- Judul & Ringkasan -->
+          <div>
+            <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">
+              {{ .Title }}
+            </h4>
+            <p class="text-sm text-gray-600 dark:text-gray-300">
+              {{ .Summary | truncate 100 }}
+            </p>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+
+    <!-- PAGINATION -->
+    <div class="flex justify-center mt-10">
+      <nav class="flex items-center space-x-2">
+        {{ with $paginator }}
+          {{ if .HasPrev }}
+            <a href="{{ .Prev.URL }}"
+               class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 text-gray-700 dark:text-white hover:bg-primary hover:text-black transition">◀</a>
+          {{ end }}
+
+          {{ range .Pagers }}
+            <a href="{{ .URL }}"
+               class="w-10 h-10 flex items-center justify-center rounded-full border
+               {{ if eq .PageNumber $.Paginator.PageNumber }}
+                 bg-primary text-black
+               {{ else }}
+                 border-gray-300 text-gray-700 dark:text-white hover:bg-primary hover:text-black
+               {{ end }} transition">
+              {{ .PageNumber }}
+            </a>
+          {{ end }}
+
+          {{ if .HasNext }}
+            <a href="{{ .Next.URL }}"
+               class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 text-gray-700 dark:text-white hover:bg-primary hover:text-black transition">▶</a>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,13 @@
+{
+  "name": "codecraft",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss-cli build -i assets/css/main.css -o static/css/output.css",
+    "watch": "tailwindcss-cli build -i assets/css/main.css -o static/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2",
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.21"
+  }
+}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="py-16 bg-white dark:bg-gray-900">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8">
+
+    <!-- Konten Utama -->
+    <article class="md:col-span-9 prose dark:prose-invert">
+      <h1 class="text-3xl font-bold text-yellow-500 mb-4">{{ .Title }}</h1>
+      {{ .Content }}
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="md:col-span-3">
+      {{ partial "sidebar-tutorial.html" . }}
+    </aside>
+
+    <!-- Tombol Kembali -->
+    <div class="md:col-span-12 mb-4">
+      <button 
+        onclick="window.location.href='{{ .CurrentSection.RelPermalink }}'" 
+        class="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-primary rounded hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500">
+        ← Kembali ke Tutorial {{ .CurrentSection.Title }}
+      </button>
+    </div>
+
+  </div>
+</section>
+{{ end }}

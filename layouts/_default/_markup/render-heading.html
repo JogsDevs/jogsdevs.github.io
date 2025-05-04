@@ -1,0 +1,10 @@
+{{ if in .Page.File.Path "kategori/" }}
+  <h{{ .Level }} class="text-base font-semibold text-slate-800 dark:text-slate-200">
+    {{ .Text | safeHTML }}
+  </h{{ .Level }}>
+{{ else }}
+  <h{{ .Level }} class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+    {{ if eq .Level 1 }}text-3xl{{ else if eq .Level 2 }}text-2xl{{ else if eq .Level 3 }}text-xl{{ else }}text-lg{{ end }}">
+    {{ .Text | safeHTML }}
+  </h{{ .Level }}>
+{{ end }}

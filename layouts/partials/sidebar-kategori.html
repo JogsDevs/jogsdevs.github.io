@@ -1,0 +1,45 @@
+<div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6">
+  <!-- Kategori Terbaru -->
+  <div>
+    <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
+      <i data-lucide="folder" class="w-5 h-5 text-yellow-500"></i>
+      Kategori Terbaru
+    </h2>
+    <ul class="space-y-2">
+      {{ range where (where .Site.RegularPages "Section" "tutorial") "Permalink" "ne" .Permalink }}
+        <li>
+          <a href="{{ .RelPermalink }}"
+             class="block text-sm hover:underline transition
+             {{ if eq .Permalink $.Permalink }}font-semibold text-yellow-700 dark:text-yellow-400{{ else }}text-yellow-600{{ end }}">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+      <li>
+        <span class="block text-sm font-semibold text-yellow-700 dark:text-yellow-400">{{ .Title }}</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Halaman Statis -->
+  <div>
+    <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
+      <i data-lucide="file-text" class="w-5 h-5 text-yellow-500"></i>
+      Halaman
+    </h2>
+    <ul class="space-y-2">
+      {{ $current := .RelPermalink }}
+      {{ range where .Site.Pages "Section" "" }}
+        {{ if in (slice "/tentang/" "/kontak/") .RelPermalink }}
+          <li>
+            <a href="{{ .RelPermalink }}"
+               class="block text-sm hover:underline transition
+               {{ if eq .RelPermalink $current }}font-semibold text-yellow-700 dark:text-yellow-400{{ else }}text-yellow-600{{ end }}">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>

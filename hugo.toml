@@ -1,0 +1,19 @@
+baseURL = 'https://jogsdevs.github.io/'
+title = 'CodeCraft'
+languageCode = 'id'
+
+[pagination] 
+  paperSize= 6
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    noClasses = false
+    lineNos = true
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+home = ["HTML", "JSON"]

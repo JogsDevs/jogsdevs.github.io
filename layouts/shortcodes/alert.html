@@ -1,0 +1,19 @@
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default (print (title $type)) }}
+
+{{ $icon := dict "info" "🛈" "success" "✅" "warning" "⚠️" "error" "❌" }}
+
+<div class="rounded-xl p-4 my-6 border-l-4
+  {{ if eq $type "info" }}border-blue-400 bg-blue-30 dark:bg-blue-800/20 dark:border-blue-800 text-blue-800 dark:text-blue-200{{ end }}
+  {{ if eq $type "success" }}border-green-400 bg-green-30 dark:bg-green-800/20 dark:border-green-800 text-green-800 dark:text-green-200{{ end }}
+  {{ if eq $type "warning" }}border-yellow-400 bg-yellow-30 dark:bg-yellow-800/20 dark:border-yellow-800 text-yellow-800 dark:text-yellow-200{{ end }}
+  {{ if eq $type "error" }}border-red-400 bg-red-30 dark:bg-red-800/20 dark:border-red-800 text-red-800 dark:text-red-200{{ end }}">
+  
+  <div class="font-sm flex items-center gap-2 mb-1">
+    <span class="text-lg">{{ index $icon $type }}</span>
+    <span>{{ $title }}</span>
+  </div>
+  <div class="text-sm leading-relaxed">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

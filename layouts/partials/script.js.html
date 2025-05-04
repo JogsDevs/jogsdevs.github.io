@@ -1,0 +1,177 @@
+<script src="{{ "js/lucide.min.js" | relURL }}"></script>
+<script src="{{ "js/fuse.min.js" | relURL }}"></script>
+
+<script>
+  lucide.createIcons();
+
+  const navToggle = document.getElementById('navToggle');
+  const navClose = document.getElementById('navClose');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuOverlay = document.getElementById('menuOverlay');
+  const themeToggle = document.getElementById('themeToggle');
+  const searchToggle = document.getElementById('searchToggle');
+  const searchModal = document.getElementById('searchModal');
+  const searchClose = document.getElementById('searchClose');
+  const searchInput = document.getElementById("searchInput");
+  const searchResults = document.getElementById("searchResults");
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+
+  // === Search Modal with Fuse.js ===
+  let fuse;
+  let fuseIndex = [];
+
+  searchToggle?.addEventListener("click", () => {
+    searchModal.classList.remove("hidden");
+    setTimeout(() => searchInput.focus(), 100);
+  });
+
+  searchClose?.addEventListener("click", () => {
+    searchModal.classList.add("hidden");
+    searchResults.innerHTML = "";
+    searchInput.value = "";
+  });
+
+  fetch("/index.json")
+    .then(res => res.json())
+    .then(data => {
+      fuseIndex = data;
+      fuse = new Fuse(fuseIndex, {
+        keys: ["title", "content"],
+        includeScore: true,
+        threshold: 0.3
+      });
+    });
+
+  searchInput?.addEventListener("input", () => {
+    const query = searchInput.value.trim();
+    if (!query || !fuse) {
+      searchResults.innerHTML = "";
+      return;
+    }
+
+    const results = fuse.search(query).slice(0, 8);
+    searchResults.innerHTML = results.length
+      ? results.map(r => `
+        <li>
+          <a href="${r.item.url}" class="block p-3 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-emerald-100 dark:hover:bg-emerald-800 transition-colors">
+            <strong>${r.item.title}</strong><br>
+            <small class="text-gray-600 dark:text-gray-400">${r.item.content.slice(0, 80)}...</small>
+          </a>
+        </li>
+      `).join("")
+      : `<li class="text-gray-500 dark:text-gray-400">Tidak ada hasil ditemukan.</li>`;
+  });
+
+  // Toggle mobile nav menu
+  navToggle.addEventListener('click', () => {
+    mobileMenu.classList.remove('-translate-x-full');
+    menuOverlay.classList.remove('opacity-0', 'pointer-events-none');
+    document.body.classList.add('overflow-hidden');
+  });
+  
+  navClose.addEventListener('click', () => {
+    mobileMenu.classList.add('-translate-x-full');
+    menuOverlay.classList.add('opacity-0', 'pointer-events-none');
+    document.body.classList.remove('overflow-hidden');
+  });
+  
+  menuOverlay.addEventListener('click', () => {
+    mobileMenu.classList.add('-translate-x-full');
+    menuOverlay.classList.add('opacity-0', 'pointer-events-none');
+    document.body.classList.remove('overflow-hidden');
+  });
+
+  // Optional: Lucide icons refresh
+  document.addEventListener('DOMContentLoaded', () => {
+    if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+    }
+  });
+
+  // Toggle theme (dark/light)
+  themeToggle?.addEventListener('click', () => {
+    const html = document.documentElement;
+    const isDark = html.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+
+  // Load saved theme
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  });
+
+  // Scroll to top button logic
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.classList.remove('hidden');
+    } else {
+      scrollToTopBtn.classList.add('hidden');
+    }
+  });
+
+  scrollToTopBtn?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Search Modal Open
+  searchToggle?.addEventListener('click', () => {
+    searchModal.classList.remove('hidden');
+  });
+
+  // Search Modal Close
+  searchClose?.addEventListener('click', () => {
+    searchModal.classList.add('hidden');
+  });
+
+  // ESC key closes search modal
+  document.addEventListener('keydown', (e) => {
+    if (e.key === "Escape") {
+      searchModal.classList.add('hidden');
+    }
+  });
+
+  // PENTING: Aktifkan ikon lucide setelah DOM siap
+  document.addEventListener('DOMContentLoaded', () => {
+    lucide.createIcons();
+  });
+
+  // Tombol copy untuk halaman konten
+  document.querySelectorAll('.copy-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const code = button.getAttribute('data-code');
+      navigator.clipboard.writeText(code).then(() => {
+        button.innerText = 'Copied!';
+        setTimeout(() => button.innerText = 'Copy', 2000);
+      });
+    });
+  });
+
+// Intersection Observer untuk animasi
+const heroText = document.getElementById('heroText');
+const heroImage = document.getElementById('heroImage');
+
+const observerOptions = {
+  root: null,
+  threshold: 0.5, // 50% elemen muncul sebelum animasi di-trigger
+};
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Jika elemen terlihat, aktifkan animasi
+      entry.target.classList.remove('opacity-0', 'translate-y-4');
+      entry.target.classList.add('opacity-100', 'translate-y-0');
+    }
+  });
+}, observerOptions);
+
+// Observasi elemen heroText dan heroImage
+observer.observe(heroText);
+observer.observe(heroImage);
+</script>
