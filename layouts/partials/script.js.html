@@ -17,51 +17,51 @@
   const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
 
-  // === Search Modal with Fuse.js ===
-  let fuse;
-  let fuseIndex = [];
+// === Search Modal with Fuse.js ===
+let fuse;
+let fuseIndex = [];
 
-  searchToggle?.addEventListener("click", () => {
-    searchModal.classList.remove("hidden");
-    setTimeout(() => searchInput.focus(), 100);
-  });
+searchToggle?.addEventListener("click", () => {
+  searchModal.classList.remove("hidden");
+  setTimeout(() => searchInput.focus(), 100);
+});
 
-  searchClose?.addEventListener("click", () => {
-    searchModal.classList.add("hidden");
-    searchResults.innerHTML = "";
-    searchInput.value = "";
-  });
+searchClose?.addEventListener("click", () => {
+  searchModal.classList.add("hidden");
+  searchResults.innerHTML = "";
+  searchInput.value = "";
+});
 
-  fetch("/index.json")
-    .then(res => res.json())
-    .then(data => {
-      fuseIndex = data;
-      fuse = new Fuse(fuseIndex, {
-        keys: ["title", "content"],
-        includeScore: true,
-        threshold: 0.3
-      });
+fetch("/index.json")
+  .then(res => res.json())
+  .then(data => {
+    fuseIndex = data;
+    fuse = new Fuse(fuseIndex, {
+      keys: ["title", "content"],
+      includeScore: true,
+      threshold: 0.3
     });
-
-  searchInput?.addEventListener("input", () => {
-    const query = searchInput.value.trim();
-    if (!query || !fuse) {
-      searchResults.innerHTML = "";
-      return;
-    }
-
-    const results = fuse.search(query).slice(0, 8);
-    searchResults.innerHTML = results.length
-      ? results.map(r => `
-        <li>
-          <a href="${r.item.url}" class="block p-3 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-emerald-100 dark:hover:bg-emerald-800 transition-colors">
-            <strong>${r.item.title}</strong><br>
-            <small class="text-gray-600 dark:text-gray-400">${r.item.content.slice(0, 80)}...</small>
-          </a>
-        </li>
-      `).join("")
-      : `<li class="text-gray-500 dark:text-gray-400">Tidak ada hasil ditemukan.</li>`;
   });
+
+searchInput?.addEventListener("input", () => {
+  const query = searchInput.value.trim();
+  if (!query || !fuse) {
+    searchResults.innerHTML = "";
+    return;
+  }
+
+  const results = fuse.search(query).slice(0, 8);
+  searchResults.innerHTML = results.length
+    ? results.map(r => `
+      <li>
+        <a href="${r.item.url}" class="block p-3 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-emerald-100 dark:hover:bg-emerald-800 transition-colors">
+          <strong>${r.item.title}</strong><br>
+          <small class="text-gray-600 dark:text-gray-400">${r.item.content.slice(0, 80)}...</small>
+        </a>
+      </li>
+    `).join("")
+    : `<li class="text-gray-500 dark:text-gray-400">Tidak ada hasil ditemukan.</li>`;
+});
 
   // Toggle mobile nav menu
   navToggle.addEventListener('click', () => {

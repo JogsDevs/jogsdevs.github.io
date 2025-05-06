@@ -10,9 +10,12 @@ Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi kami mel
 
 ## Alamat Email
 - **Email**: [info@example.com](mailto:info@example.com)
-
+---
 ## Nomor Telepon
 - **Telepon**: +62 812 3456 7890
-
+---
 ## Alamat
 - **Alamat Fisik**: Jl. Raya No. 123, Jakarta
+---
+## Tulis Pesan Anda 
+{{< contact-form >}}

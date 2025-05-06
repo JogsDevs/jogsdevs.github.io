@@ -17,3 +17,9 @@ languageCode = 'id'
 
 [outputs]
 home = ["HTML", "JSON"]
+
+[params]
+  searchTypes = ["tutorial", "slug", "kategori"]
+  description = "Website resmi Jogja Devs, komunitas dan layanan developer Jogja."
+  keywords = "jogja, devs, komunitas, developer, jasa, website, teknologi"
+  author = "JogsDevs Team"
