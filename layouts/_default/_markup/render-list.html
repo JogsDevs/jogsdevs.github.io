@@ -1,4 +1,9 @@
-<ul class="list-disc list-inside my-4 space-y-2 text-gray-800 dark:text-gray-200">
-    {{ .Inner | safeHTML }}
-  </ul>
-  
+{{ $tag := "ul" }}
+{{ if eq .Level 1 }}
+  {{ if .Ordered }}
+    {{ $tag = "ol" }}
+  {{ end }}
+{{ end }}
+<{{$tag}} class="{{ if eq $tag "ul" }}list-disc{{ else }}list-decimal{{ end }} list-inside my-4 space-y-2 text-gray-800 dark:text-gray-200">
+  {{ .Inner | safeHTML }}
+</{{$tag}}>

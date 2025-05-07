@@ -6,7 +6,7 @@
       Kategori Terbaru
     </h2>
     <ul class="space-y-2">
-      {{ range where (where .Site.RegularPages "Section" "tutorial") "Permalink" "ne" .Permalink }}
+      {{ range where (where .Site.RegularPages "Section" "kategori") "Permalink" "ne" .Permalink }}
         <li>
           <a href="{{ .RelPermalink }}"
              class="block text-sm hover:underline transition

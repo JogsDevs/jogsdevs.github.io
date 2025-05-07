@@ -1,16 +1,19 @@
 {{ define "main" }}
 <section class="py-16 bg-white dark:bg-gray-900">
-  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8  text-articleText dark:text-articleTextDark">
+
 
     <!-- Konten Utama -->
-    <article class="md:col-span-9 prose dark:prose-invert">
-      <h1 class="text-3xl font-bold text-yellow-500 mb-4">{{ .Title }}</h1>
-      {{ .Content }}
+    <article class="text-left prose prose-img:rounded-xl prose-headings:underline prose-a:text-yellow-600  dark:prose-invert md:col-span-9">
+      <h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">{{ .Title }}</h1>
+      <div class="text-left text-tw-prose-bold  dark:text-articleTextDark">
+        {{ .Content }}
+      </div>
     </article>
-
+    
     <!-- Sidebar -->
     <aside class="md:col-span-3">
-      {{ partial "sidebar-tutorial.html" . }}
+      {{ partial "sidebar-kategori.html" . }}
     </aside>
 
     <!-- Tombol Kembali -->

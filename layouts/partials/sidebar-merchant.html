@@ -1,0 +1,57 @@
+<div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6">
+
+  <!-- Merchant Terbaru -->
+  <div>
+    <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
+      <i data-lucide="store" class="w-5 h-5 text-yellow-500"></i>
+      Produk Terbaru
+    </h2>
+    <ul class="space-y-4">
+      {{ $current := .Permalink }}
+      {{ range first 6 (where (where .Site.RegularPages "Section" "merchant") "Permalink" "ne" $current) }}
+        <li class="flex items-center gap-3">
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="w-10 h-10 object-cover rounded-md">
+          {{ else }}
+            <div class="w-10 h-10 bg-yellow-300 rounded-md flex items-center justify-center">
+              <i data-lucide="box" class="w-4 h-4 text-yellow-800"></i>
+            </div>
+          {{ end }}
+          <div>
+            <a href="{{ .RelPermalink }}"
+              class="block text-sm font-medium leading-tight hover:underline transition
+              {{ if eq .Permalink $current }}text-yellow-700 dark:text-yellow-400 font-semibold{{ else }}text-yellow-600{{ end }}">
+              {{ .Title }}
+            </a>
+            {{ with .Params.harga }}
+              <span class="text-xs text-gray-600 dark:text-gray-400">Rp{{ . }}</span>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <!-- Halaman Statis -->
+  <div>
+    <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
+      <i data-lucide="file-text" class="w-5 h-5 text-yellow-500"></i>
+      Halaman
+    </h2>
+    <ul class="space-y-2">
+      {{ $current := .RelPermalink }}
+      {{ range where .Site.Pages "Section" "" }}
+        {{ if in (slice "/tentang/" "/kontak/") .RelPermalink }}
+          <li>
+            <a href="{{ .RelPermalink }}"
+              class="block text-sm hover:underline transition
+              {{ if eq .RelPermalink $current }}font-semibold text-yellow-700 dark:text-yellow-400{{ else }}text-yellow-600{{ end }}">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+
+</div>

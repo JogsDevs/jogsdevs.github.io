@@ -1,6 +1,6 @@
 ---
-title: "Kelas Petanai kode"
-description: "Temukan berbagai tutorial dan artikel dalam berbagai kategori pengembangan web."
+title: "Merchant Petani kode"
+description: "Temukan berbagai Tools dan Software."
 icon: "book-open"
 ---
 

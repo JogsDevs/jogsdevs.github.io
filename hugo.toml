@@ -5,12 +5,16 @@ languageCode = 'id'
 [pagination] 
   paperSize= 6
 
-[markup]
-  [markup.highlight]
-    style = "monokai"
-    noClasses = false
-    lineNos = true
+ignoreErrors = ["error-remote-getjson"]
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+toc = true
 
+[markup]
+[markup.highlight]
+  # lineNos = true
+  noClasses = false
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true

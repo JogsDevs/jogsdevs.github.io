@@ -1,0 +1,131 @@
+{{ define "main" }}
+<section class="py-16 bg-white dark:bg-gray-900">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8 text-articleText dark:text-articleTextDark">
+
+    <!-- Konten Utama -->
+    <article class="md:col-span-9 text-left">
+      <!-- Gambar Thumbnail -->
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="rounded-lg mb-4 w-1/2 max-h-[200px] object-cover" />
+      {{ end }}
+
+      <!-- Judul Produk -->
+      <h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">{{ .Title }}</h1>
+
+      <!-- Deskripsi -->
+      <div class="prose dark:prose-invert mb-6">
+        {{ .Content }}
+      </div>
+
+      <!-- Tombol Download -->
+      {{ with .Params.download }}
+      <div class="relative mb-6">
+        <!-- Tombol Utama -->
+        <button 
+          id="showCaptchaModal"
+          class="inline-flex items-center gap-2 bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold shadow-md hover:bg-yellow-500 transition">
+          ⬇ Unduh Sekarang
+        </button>
+      
+        <!-- Modal Captcha Palsu -->
+        <div id="captchaModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 w-full max-w-md">
+            <h2 class="text-xl font-bold mb-4">Verifikasi</h2>
+            <label class="inline-flex items-center mb-4">
+              <input type="checkbox" id="fakeCaptcha" class="form-checkbox h-5 w-5 text-yellow-500 mr-2">
+              <span class="text-sm">Saya bukan robot</span>
+            </label>
+            <div class="flex justify-end gap-2">
+              <button id="cancelCaptcha" class="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400">Batal</button>
+              <button id="confirmCaptcha" class="px-4 py-2 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-600">Lanjutkan</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Progress -->
+        <div id="progressWrapper" class="hidden mt-4">
+          <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden h-5 shadow-inner">
+            <div id="progressBar" class="bg-yellow-500 h-full text-xs font-semibold text-center text-black" style="width: 0%;">0%</div>
+          </div>
+          <p id="progressText" class="text-sm mt-2">Menunggu verifikasi...</p>
+        </div>
+      </div>
+      {{ end }}
+    </article>
+
+    <!-- Sidebar Opsional -->
+    <aside class="md:col-span-3">
+      {{ partial "sidebar-merchant.html" . }}
+    </aside>
+
+    <!-- Tombol Kembali -->
+    <div class="md:col-span-12 mt-10">
+      <button 
+        onclick="window.location.href='{{ .CurrentSection.RelPermalink }}'" 
+        class="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-primary rounded hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500">
+        ← Kembali ke {{ .CurrentSection.Title }}
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function startDownload(fileUrl) {
+    const button = document.getElementById('showCaptchaModal');
+    const wrapper = document.getElementById('progressWrapper');
+    const bar = document.getElementById('progressBar');
+    const text = document.getElementById('progressText');
+
+    if (!button || !wrapper || !bar || !text) return;
+
+    wrapper.classList.remove('hidden');
+    let progress = 0;
+    const interval = setInterval(() => {
+      if (progress >= 100) {
+        clearInterval(interval);
+        bar.textContent = "Selesai!";
+        bar.style.width = "100%";
+        bar.classList.replace("bg-yellow-500", "bg-green-500");
+        text.textContent = "Download dimulai...";
+        window.location.href = fileUrl;
+
+        // Optional: Refresh halaman setelah 3 detik
+        setTimeout(() => location.reload(), 3000);
+        return;
+      }
+      progress += 5;
+      bar.style.width = progress + "%";
+      bar.textContent = progress + "%";
+      text.textContent = "Mengunduh " + progress + "%";
+    }, 100);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const showModalBtn = document.getElementById("showCaptchaModal");
+    const modal = document.getElementById("captchaModal");
+    const cancelBtn = document.getElementById("cancelCaptcha");
+    const confirmBtn = document.getElementById("confirmCaptcha");
+    const checkbox = document.getElementById("fakeCaptcha");
+    const downloadUrl = "{{ .Params.download | relURL }}";
+
+    showModalBtn?.addEventListener("click", () => {
+      modal.classList.remove("hidden");
+    });
+
+    cancelBtn?.addEventListener("click", () => {
+      modal.classList.add("hidden");
+      checkbox.checked = false;
+    });
+
+    confirmBtn?.addEventListener("click", () => {
+      if (!checkbox.checked) {
+        alert("Silakan centang verifikasi terlebih dahulu!");
+        return;
+      }
+      modal.classList.add("hidden");
+      startDownload(downloadUrl);
+    });
+  });
+</script>
+{{ end }}
