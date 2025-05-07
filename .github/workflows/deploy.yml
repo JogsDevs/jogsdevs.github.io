@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write  # Untuk token OAuth jika perlu
 
 jobs:
   deploy:
