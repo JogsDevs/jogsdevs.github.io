@@ -9,8 +9,8 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="Kunjungi Website">
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;a href=&amp;#34;https://www.example.com&amp;#34;&amp;gt;Kunjungi Website&amp;lt;/a&amp;gt;">
  Copy
  &lt;/button>
 &lt;/div></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/html/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/html/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
@@ -48,10 +48,28 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;!DOCTYPE html&amp;gt; Struktur HTML Selamat Datang di Website Saya Konten Utama Ini adalah konten utama halaman.
-© 2025 Website Saya
-">
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;#34;id&amp;#34;&amp;gt;
+&amp;lt;head&amp;gt;
+ &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+ &amp;lt;title&amp;gt;Struktur HTML&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+ &amp;lt;header&amp;gt;
+ &amp;lt;h1&amp;gt;Selamat Datang di Website Saya&amp;lt;/h1&amp;gt;
+ &amp;lt;/header&amp;gt;
+ &amp;lt;main&amp;gt;
+ &amp;lt;section&amp;gt;
+ &amp;lt;h2&amp;gt;Konten Utama&amp;lt;/h2&amp;gt;
+ &amp;lt;p&amp;gt;Ini adalah konten utama halaman.&amp;lt;/p&amp;gt;
+ &amp;lt;/section&amp;gt;
+ &amp;lt;/main&amp;gt;
+ &amp;lt;footer&amp;gt;
+ &amp;lt;p&amp;gt;© 2025 Website Saya&amp;lt;/p&amp;gt;
+ &amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;">
  Copy
  &lt;/button>
 &lt;/div></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/html/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/html/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item></channel></rss>

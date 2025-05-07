@@ -16,8 +16,18 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="">
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;style&amp;gt;
+ body {
+ background-color: #f0f0f0;
+ font-family: sans-serif;
+ }
+
+ h1 {
+ color: navy;
+ text-align: center;
+ }
+&amp;lt;/style&amp;gt;">
  Copy
  &lt;/button>
 &lt;/div></description></item><item><title>Memahami Box Model di CSS</title><link>https://jogsdevs.github.io/kategori/css/box-model/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/box-model/</guid><description>&lt;p>CSS Box Model adalah konsep dasar yang digunakan untuk mendesain elemen di halaman web. Setiap elemen HTML diperlakukan sebagai sebuah kotak, dan memiliki bagian-bagian berikut:&lt;/p>
@@ -46,8 +56,19 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code=" Ini adalah kotak dengan Box Model">
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;style&amp;gt;
+ div {
+ width: 300px;
+ height: 200px;
+ padding: 20px;
+ border: 5px solid black;
+ margin: 15px;
+ background-color: lightgray;
+ }
+&amp;lt;/style&amp;gt;
+
+&amp;lt;div&amp;gt;Ini adalah kotak dengan Box Model&amp;lt;/div&amp;gt;">
  Copy
  &lt;/button>
 &lt;/div></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/css/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
@@ -84,9 +105,33 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code=" Responsive Design Halaman ini akan menyesuaikan dengan ukuran layar perangkat.
-">
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;style&amp;gt;
+ /* Default untuk desktop */
+ .container {
+ width: 80%;
+ margin: 0 auto;
+ }
+
+ /* Untuk tablet */
+ @media (max-width: 768px) {
+ .container {
+ width: 90%;
+ }
+ }
+
+ /* Untuk ponsel */
+ @media (max-width: 480px) {
+ .container {
+ width: 100%;
+ }
+ }
+&amp;lt;/style&amp;gt;
+
+&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;
+ &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;
+ &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;">
  Copy
  &lt;/button>
 &lt;/div></description></item></channel></rss>

@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on CodeCraft</title><link>https://jogsdevs.github.io/tutorial/</link><description>Recent content in Tutorials on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</title><link>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</guid><description>&lt;p>Ingin website Hugo kamu langsung online setiap kali push? Di artikel ini, kita akan belajar cara &lt;strong>deploy website Hugo&lt;/strong> yang menggunakan &lt;strong>TailwindCSS CLI&lt;/strong> ke &lt;strong>GitHub Pages&lt;/strong> secara otomatis menggunakan &lt;strong>GitHub Actions&lt;/strong>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on CodeCraft</title><link>https://jogsdevs.github.io/tutorial/</link><description>Recent content in Tutorials on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Integrasi Mendeley Dengan Ms Word</title><link>https://jogsdevs.github.io/tutorial/integrasi-mendeley-dengan-microsoft-word/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/integrasi-mendeley-dengan-microsoft-word/</guid><description>&lt;h1 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-3xl">
+ Mengintegrasikan Mendeley dengan Microsoft Office: Panduan Lengkap
+ &lt;/h1>
+
+&lt;p>Mendeley adalah salah satu aplikasi referensi manajer yang paling banyak digunakan oleh peneliti, mahasiswa, dan profesional di berbagai bidang. Aplikasi ini memungkinkan kamu untuk mengorganisasi, menyimpan, dan mengelola referensi dengan mudah. Salah satu keunggulan Mendeley adalah kemampuannya untuk terintegrasi langsung dengan aplikasi Microsoft Office, seperti Microsoft Word.&lt;/p>
+&lt;p>Dalam artikel ini, kita akan membahas cara &lt;strong>install Mendeley&lt;/strong>, cara &lt;strong>menghubungkannya dengan Microsoft Word&lt;/strong>, serta beberapa masalah umum yang sering terjadi dan cara mengatasinya.&lt;/p></description></item><item><title>Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</title><link>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</guid><description>&lt;p>Ingin website Hugo kamu langsung online setiap kali push? Di artikel ini, kita akan belajar cara &lt;strong>deploy website Hugo&lt;/strong> yang menggunakan &lt;strong>TailwindCSS CLI&lt;/strong> ke &lt;strong>GitHub Pages&lt;/strong> secara otomatis menggunakan &lt;strong>GitHub Actions&lt;/strong>.&lt;/p>
 
  &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
  text-2xl">
@@ -49,7 +55,7 @@
  &lt;/code>
  &lt;/pre>
  &lt;button
- class="absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
  data-code="baseURL = &amp;#39;https://[jogsdevs.github.io](https://jogsdevs.github.io/)/&amp;#39;
 languageCode = &amp;#39;id&amp;#39;
 title = &amp;#39;CodeCraft&amp;#39;
