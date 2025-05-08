@@ -3,13 +3,21 @@
   <div>
     <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
       <i data-lucide="folder" class="w-5 h-5 text-yellow-500"></i>
-      Kategori Terbaru
+      Tutorial Terbaru
     </h2>
-    <ul class="space-y-2">
-      {{ range where (where .Site.RegularPages "Section" "kategori") "Permalink" "ne" .Permalink }}
-        <li>
+    <ul class="space-y-4">
+      {{ $current := .Permalink }}
+      {{ range first 6 (where (where .Site.RegularPages "Section" "tutorial") "Permalink" "ne" $current) }}
+        <li class="flex items-center gap-3">
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="w-10 h-10 object-cover rounded-md">
+          {{ else }}
+            <div class="w-10 h-10 bg-yellow-300 rounded-md flex items-center justify-center">
+              <i data-lucide="box" class="w-4 h-4 text-yellow-800"></i>
+            </div>
+          {{ end }}
           <a href="{{ .RelPermalink }}"
-             class="block text-sm hover:underline transition
+             class="text-sm hover:underline transition
              {{ if eq .Permalink $.Permalink }}font-semibold text-yellow-700 dark:text-yellow-400{{ else }}text-yellow-600{{ end }}">
             {{ .Title }}
           </a>

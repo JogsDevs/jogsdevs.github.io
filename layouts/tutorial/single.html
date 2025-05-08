@@ -3,20 +3,24 @@
   <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8 text-articleText dark:text-articleTextDark">
 
     <!-- Konten Utama -->
-    <article class="text-left prose dark:prose-dark dark:prose-invert max-w-none md:col-span-9">
-      <h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">
-        {{ .Title }}
-      </h1>
-      <!-- Gunakan prose di sini -->
-      <div>
+    <article class="md:col-span-9 text-left">
+      <!-- Gambar Thumbnail -->
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="rounded-lg mb-4 w-1/2 max-h-[200px] object-cover" />
+      {{ end }}
+
+      <!-- Judul Produk -->
+      <h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">{{ .Title }}</h1>
+
+      <!-- Deskripsi -->
+      <div class="prose dark:prose-dark dark:prose-invert mb-6">
         {{ .Content }}
       </div>
     </article>
-    
-    
+
     <!-- Sidebar -->
     <aside class="md:col-span-3">
-      {{ partial "sidebar-kategori.html" . }}
+      {{ partial "sidebar-tutorial.html" . }}
     </aside>
 
     <!-- Tombol Kembali -->
