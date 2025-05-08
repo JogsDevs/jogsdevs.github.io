@@ -6,38 +6,25 @@ slug: deploy-hugo-github-pages
 image: "images/tutorials/github-mark-white.png"
 ---
 
-Ingin website Hugo kamu langsung online setiap kali push? Di artikel ini, kita akan belajar cara **deploy website Hugo** yang menggunakan **TailwindCSS CLI** ke **GitHub Pages** secara otomatis menggunakan **GitHub Actions**.
+## Pendahuluan
 
-## 🚀 Apa yang Akan Kita Bangun?
+Hugo adalah static site generator yang sangat cepat dan mudah digunakan. Setelah selesai membangun website dengan Hugo, langkah selanjutnya adalah melakukan deploy agar website dapat diakses publik melalui internet. Salah satu cara termudah adalah menggunakan GitHub Pages.
 
-- Hugo dengan TailwindCSS (pakai `tailwindcss-cli`)
-- Auto-deploy dari branch `main` ke `gh-pages`
-- GitHub Actions sebagai CI/CD pipeline
-- CSS hasil Tailwind sudah teroptimasi dan minify
+## Persiapan
 
----
+Sebelum mulai deploy, pastikan kamu sudah memiliki:
 
-## 🧱 1. Struktur Branch
+- Website Hugo yang sudah jadi.
+- Akun GitHub.
+- Git sudah terinstal di komputer kamu.
 
-- `main`: tempat kamu menulis konten, ngoding layout, styling, dsb.
-- `gh-pages`: berisi hasil build Hugo yang akan tampil di GitHub Pages.
+## Langkah-langkah Deploy
 
----
+### 1. Inisialisasi Git Repository
 
-## 🛠️ 2. Konfigurasi `hugo.toml`
+Masuk ke direktori project Hugo kamu, lalu inisialisasi Git:
 
-```toml
-baseURL = 'https://[jogsdevs.github.io](https://jogsdevs.github.io/)/'
-languageCode = 'id'
-title = 'CodeCraft'
-publishDir = 'public'
-
-[markup]
-  [markup.highlight]
-    noClasses = false
-    style = "monokai"
-
-  [markup.goldmark.renderer]
-    unsafe = true
-
-ignoreLogs = ["warning-goldmark-raw-html"]
+```bash
+git init
+git add .
+git commit -m "Initial commit"
