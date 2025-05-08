@@ -18,40 +18,19 @@ Join Newsletter
 </a><a href=/tutorial/ class="flex items-center gap-3 text-lg hover:text-emerald-200"><i data-lucide=edit-3 class="w-5 h-5"></i> <span>Tutorial</span>
 </a><a href=/kategori/ class="flex items-center gap-3 text-lg hover:text-emerald-200"><i data-lucide=book-open class="w-5 h-5"></i> <span>Kategori</span>
 </a><a href=/discord/ class="flex items-center gap-3 text-lg hover:text-emerald-200"><i data-lucide=message-circle class="w-5 h-5"></i> <span>Discord</span></a></nav></div></div><button id=scrollToTopBtn class="fixed bottom-6 right-6 z-50 hidden bg-gray-500 text-emerald-900 hover:bg-green-300 p-3 rounded-full shadow-xl transition-all duration-300 ease-in-out ring-2 ring-white dark:ring-emerald-800 focus:outline-none">
-<i data-lucide=arrow-up class="w-5 h-5"></i></button></div><main class=flex-grow><section class="py-16 bg-white dark:bg-gray-900"><div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8 text-articleText dark:text-articleTextDark"><article class="text-left prose dark:prose-dark dark:prose-invert max-w-none md:col-span-9"><h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</h1><div><p>Ingin website Hugo kamu langsung online setiap kali push? Di artikel ini, kita akan belajar cara <strong>deploy website Hugo</strong> yang menggunakan <strong>TailwindCSS CLI</strong> ke <strong>GitHub Pages</strong> secara otomatis menggunakan <strong>GitHub Actions</strong>.</p><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
-text-2xl">🚀 Apa yang Akan Kita Bangun?</h2><ul><li>Hugo dengan TailwindCSS (pakai <code>tailwindcss-cli</code>)</li><li>Auto-deploy dari branch <code>main</code> ke <code>gh-pages</code></li><li>GitHub Actions sebagai CI/CD pipeline</li><li>CSS hasil Tailwind sudah teroptimasi dan minify</li></ul><hr><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
-text-2xl">🧱 1. Struktur Branch</h2><ul><li><code>main</code>: tempat kamu menulis konten, ngoding layout, styling, dsb.</li><li><code>gh-pages</code>: berisi hasil build Hugo yang akan tampil di GitHub Pages.</li></ul><hr><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
-text-2xl">🛠️ 2. Konfigurasi <code>hugo.toml</code></h2><div class="relative group my-6 text-sm font-mono"><pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
-    <code><div>baseURL = &#39;https://[jogsdevs.github.io](https://jogsdevs.github.io/)/&#39;</div>
-        <div>languageCode = &#39;id&#39;</div>
-        <div>title = &#39;CodeCraft&#39;</div>
-        <div>publishDir = &#39;public&#39;</div>
-        <div></div>
-        <div>[markup]</div>
-        <div>  [markup.highlight]</div>
-        <div>    noClasses = false</div>
-        <div>    style = &#34;monokai&#34;</div>
-        <div></div>
-        <div>  [markup.goldmark.renderer]</div>
-        <div>    unsafe = true</div>
-        <div></div>
-        <div>ignoreLogs = [&#34;warning-goldmark-raw-html&#34;]</div>
+<i data-lucide=arrow-up class="w-5 h-5"></i></button></div><main class=flex-grow><section class="py-16 bg-white dark:bg-gray-900"><div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8 text-articleText dark:text-articleTextDark"><article class="text-left prose dark:prose-dark dark:prose-invert max-w-none md:col-span-9"><h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</h1><div><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+text-2xl">Pendahuluan</h2><p>Hugo adalah static site generator yang sangat cepat dan mudah digunakan. Setelah selesai membangun website dengan Hugo, langkah selanjutnya adalah melakukan deploy agar website dapat diakses publik melalui internet. Salah satu cara termudah adalah menggunakan GitHub Pages.</p><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+text-2xl">Persiapan</h2><p>Sebelum mulai deploy, pastikan kamu sudah memiliki:</p><ul><li>Website Hugo yang sudah jadi.</li><li>Akun GitHub.</li><li>Git sudah terinstal di komputer kamu.</li></ul><h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+text-2xl">Langkah-langkah Deploy</h2><h3 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+text-xl">1. Inisialisasi Git Repository</h3><p>Masuk ke direktori project Hugo kamu, lalu inisialisasi Git:</p><div class="relative group my-6 text-sm font-mono"><pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+    <code><div>git init</div>
+        <div>git add .</div>
+        <div>git commit -m &#34;Initial commit&#34;</div>
         
     </code>
-  </pre><button class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition" data-code="baseURL = 'https://[jogsdevs.github.io](https://jogsdevs.github.io/)/'
-languageCode = 'id'
-title = 'CodeCraft'
-publishDir = 'public'
-
-[markup]
-  [markup.highlight]
-    noClasses = false
-    style = &#34;monokai&#34;
-
-  [markup.goldmark.renderer]
-    unsafe = true
-
-ignoreLogs = [&#34;warning-goldmark-raw-html&#34;]">
+  </pre><button class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition" data-code='git init
+git add .
+git commit -m "Initial commit"'>
 Copy</button></div></div></article><aside class=md:col-span-3><div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6"><div><h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2"><i data-lucide=folder class="w-5 h-5 text-yellow-500"></i>
 Kategori Terbaru</h2><ul class=space-y-2><li><a href=/kategori/css/belajar-css-dasar/ class="block text-sm hover:underline transition
 text-yellow-600">Belajar CSS Dasar</a></li><li><a href=/kategori/javascript/event-handler/ class="block text-sm hover:underline transition
