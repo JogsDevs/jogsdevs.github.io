@@ -2,8 +2,9 @@
   "name": "codecraft",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss-cli build -i assets/css/main.css -o static/css/output.css",
-    "build:css": "tailwindcss -i assets/css/main.css -o assets/css/output.css --minify"
+    "build": "tailwindcss -i assets/css/main.css -o static/css/output.css --watch",
+    "build:css": "tailwindcss -i assets/css/main.css -o static/css/output.css --minify",
+    "prod": "npm run build:css && hugo --minify"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
@@ -12,8 +13,5 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "uglify-js": "^3.19.3"
-  },
-  "dependencies": {
-    "tailwindcss-cli": "^0.1.2"
   }
 }
