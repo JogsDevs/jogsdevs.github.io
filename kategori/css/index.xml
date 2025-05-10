@@ -1,77 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSS on CodeCraft</title><link>https://jogsdevs.github.io/kategori/css/</link><description>Recent content in CSS on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Belajar CSS Dasar</title><link>https://jogsdevs.github.io/kategori/css/belajar-css-dasar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/belajar-css-dasar/</guid><description>&lt;p>CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan halaman HTML. Contohnya:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic Programing on CodeCraft</title><link>https://jogsdevs.github.io/kategori/css/</link><description>Recent content in Basic Programing on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title><link>https://jogsdevs.github.io/kategori/css/pyscript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/pyscript/</guid><description>&lt;p>Karena habis gentayangan di beberapa cloud workspace
+seperti c9.io, codenvy, dan glitch saya tiba-tiba
+kepikiran untuk mengakses shell dari web Python.&lt;/p>
+&lt;p>Di website Python, terdapat shell python yang
+bisa kita gunakan untuk ujicaoba kode python.&lt;/p>
+&lt;p>Lalu, bagaimana kalau&amp;hellip;&lt;/p>
+&lt;p>Kita akses shell seperti &lt;code>bash&lt;/code> atau &lt;code>zsh&lt;/code> di sana?&lt;/p>
+&lt;p>Ya, itu bisa.&lt;/p>
+&lt;p>Caranya:&lt;/p>
+&lt;p>Pertama saya coba-coba dulu menjalankan
+perintah Linux dengan mengimpor modul &lt;code>os&lt;/code>.&lt;/p>
+&lt;p>Di dalam modul &lt;code>os&lt;/code>, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: &lt;code>system()&lt;/code>.&lt;/p></description></item><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/css/box-model/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/box-model/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
+Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain, hehe.&lt;/p>
+&lt;p>Kemarin (15/05/2023), saya mulai develop tema baru.&lt;/p>
 &lt;div class="relative group my-6 text-sm font-mono">
  &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
- &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
- &lt;div class=""> body {&lt;/div>
- &lt;div class=""> background-color: #f0f0f0;&lt;/div>
- &lt;div class=""> font-family: sans-serif;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class=""> h1 {&lt;/div>
- &lt;div class=""> color: navy;&lt;/div>
- &lt;div class=""> text-align: center;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
+ &lt;code>&lt;div class="">hugo new theme ardianta&lt;/div>
  
  &lt;/code>
  &lt;/pre>
  &lt;button
  class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;style&amp;gt;
- body {
- background-color: #f0f0f0;
- font-family: sans-serif;
- }
-
- h1 {
- color: navy;
- text-align: center;
- }
-&amp;lt;/style&amp;gt;">
+ data-code="hugo new theme ardianta">
  Copy
  &lt;/button>
-&lt;/div></description></item><item><title>Memahami Box Model di CSS</title><link>https://jogsdevs.github.io/kategori/css/box-model/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/box-model/</guid><description>&lt;p>CSS Box Model adalah konsep dasar yang digunakan untuk mendesain elemen di halaman web. Setiap elemen HTML diperlakukan sebagai sebuah kotak, dan memiliki bagian-bagian berikut:&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Content&lt;/strong>: Isi dari elemen.&lt;/li>
-&lt;li>&lt;strong>Padding&lt;/strong>: Ruang di sekitar konten, di dalam elemen.&lt;/li>
-&lt;li>&lt;strong>Border&lt;/strong>: Garis yang mengelilingi padding (jika ada).&lt;/li>
-&lt;li>&lt;strong>Margin&lt;/strong>: Ruang di luar border.&lt;/li>
-&lt;/ol>
-&lt;p>Contoh penggunaan Box Model:&lt;/p>
-&lt;div class="relative group my-6 text-sm font-mono">
- &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
- &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
- &lt;div class=""> div {&lt;/div>
- &lt;div class=""> width: 300px;&lt;/div>
- &lt;div class=""> height: 200px;&lt;/div>
- &lt;div class=""> padding: 20px;&lt;/div>
- &lt;div class=""> border: 5px solid black;&lt;/div>
- &lt;div class=""> margin: 15px;&lt;/div>
- &lt;div class=""> background-color: lightgray;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class="">&amp;lt;div&amp;gt;Ini adalah kotak dengan Box Model&amp;lt;/div&amp;gt;&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;style&amp;gt;
- div {
- width: 300px;
- height: 200px;
- padding: 20px;
- border: 5px solid black;
- margin: 15px;
- background-color: lightgray;
- }
-&amp;lt;/style&amp;gt;
-
-&amp;lt;div&amp;gt;Ini adalah kotak dengan Box Model&amp;lt;/div&amp;gt;">
- Copy
- &lt;/button>
-&lt;/div></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/css/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
+&lt;/div>&lt;p>Untuk sementara, nama theme-nya adalah &lt;code>ardianta&lt;/code>. Mungkin nanti kalau sudah jadi akan saya ubah
+dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/css/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/css/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
 &lt;p>Contoh CSS untuk responsive design:&lt;/p>
 &lt;div class="relative group my-6 text-sm font-mono">
  &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
