@@ -1,13 +1,14 @@
 <div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6">
+
   <!-- Kategori Terbaru -->
   <div>
     <h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2">
       <i data-lucide="folder" class="w-5 h-5 text-yellow-500"></i>
-      Tutorial Terbaru
+      Kategori Terbaru
     </h2>
     <ul class="space-y-4">
       {{ $current := .Permalink }}
-      {{ range first 6 (where (where .Site.RegularPages "Section" "tutorial") "Permalink" "ne" $current) }}
+      {{ range first 6 (where (where .Site.RegularPages "Section" "kategori") "Permalink" "ne" $current) }}
         <li class="flex items-center gap-3">
           {{ with .Params.image }}
             <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="w-10 h-10 object-cover rounded-md">
@@ -50,4 +51,5 @@
       {{ end }}
     </ul>
   </div>
+
 </div>

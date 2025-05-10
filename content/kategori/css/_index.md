@@ -1,7 +1,7 @@
 ---
-title: "CSS"
-description: "Temukan berbagai tutorial dan artikel dalam berbagai kategori pengembangan web."
-icon: "book-open"
+title: "Basic Programing"
+description: "Baca Tutorial dasar-dasar pemprograman menggunakan C,C++,C#,Javascript, dan masih banyak lagi."
+icon: "code-xml"
 ---
 
 # Selamat datang di Halaman Kategori

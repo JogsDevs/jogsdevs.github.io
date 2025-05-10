@@ -1,7 +1,7 @@
 ---
-title: "JAVASCRIPT"
+title: "Web Programing"
 description: "Temukan berbagai tutorial dan artikel dalam berbagai kategori pengembangan web."
-icon: "book-open"
+icon: "globe"
 ---
 
 # Selamat datang di Halaman Kategori
