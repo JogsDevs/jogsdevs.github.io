@@ -1,3 +1,31 @@
-<div class="p-4 border-l-4 border-blue-500 bg-blue-50 dark:bg-blue-900 dark:text-blue-100 rounded-md my-4">
-  {{ .Inner | markdownify }}
+{{/* Ambil parameter dengan nilai default */}}
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default "" }}
+{{ $icon  := .Get "icon" | default "" }}
+{{ $color := .Get "color" }}
+
+{{/* Gaya berdasarkan tipe */}}
+{{ $styles := dict
+  "info"    (dict "border" "border-blue-500"   "bg" "bg-blue-50 dark:bg-blue-900"     "text" "dark:text-blue-100"   "icon" "ℹ️")
+  "warning" (dict "border" "border-yellow-500" "bg" "bg-yellow-50 dark:bg-yellow-900" "text" "dark:text-yellow-100" "icon" "⚠️")
+  "danger"  (dict "border" "border-red-500"    "bg" "bg-red-50 dark:bg-red-900"       "text" "dark:text-red-100"    "icon" "❌")
+  "tip"     (dict "border" "border-green-500"  "bg" "bg-green-50 dark:bg-green-900"   "text" "dark:text-green-100"  "icon" "💡")
+}}
+
+{{ $style := index $styles $type }}
+
+{{/* Override warna jika diberikan */}}
+{{ $border := cond (not $color) ($style.border) (print "border-" $color "-500") }}
+{{ $bg     := cond (not $color) ($style.bg)     (print "bg-" $color "-50 dark:bg-" $color "-900") }}
+{{ $text   := cond (not $color) ($style.text)   (print "dark:text-" $color "-100") }}
+{{ $finalIcon := cond (ne $icon "") $icon ($style.icon) }}
+
+<div class="border-l-4 {{ $border }} {{ $bg }} {{ $text }} p-4 rounded-md my-4">
+  <div class="flex items-start space-x-3">
+    <div class="text-xl">{{ $finalIcon }}</div>
+    <div>
+      {{ if $title }}<p class="font-semibold mb-1">{{ $title }}</p>{{ end }}
+      <div class="prose dark:prose-dark text-inherit">{{ .Inner | markdownify }}</div>
+    </div>
+  </div>
 </div>
