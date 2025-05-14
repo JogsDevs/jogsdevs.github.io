@@ -1,6 +1,6 @@
 ---
 title: "Aktivated Method Chart"
-summary: "Aktivasi windows dan office online."
+summary: "perbandingan metode aktivasi yang ditawarkan oleh Microsoft Activation Scripts."
 date: 2025-05-14
 image: "images/tutorials/keys.png"
 ---
