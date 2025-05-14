@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programing on CodeCraft</title><link>https://jogsdevs.github.io/kategori/javascript/</link><description>Recent content in Web Programing on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/javascript/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/javascript/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programing on CodeCraft</title><link>https://jogsdevs.github.io/kategori/web-programing/</link><description>Recent content in Web Programing on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/web-programing/index.xml" rel="self" type="application/rss+xml"/><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
 &lt;p>Contoh penggunaan event handler:&lt;/p>
 &lt;div class="relative group my-6 text-sm font-mono">
  &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
@@ -27,7 +27,7 @@
 &amp;lt;/script&amp;gt;">
  Copy
  &lt;/button>
-&lt;/div></description></item><item><title>Hello JavaScript!</title><link>https://jogsdevs.github.io/kategori/javascript/hello-javascript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/javascript/hello-javascript/</guid><description>&lt;p>JavaScript adalah bahasa pemrograman untuk membuat halaman web jadi interaktif.&lt;/p>
+&lt;/div></description></item><item><title>Hello JavaScript!</title><link>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</guid><description>&lt;p>JavaScript adalah bahasa pemrograman untuk membuat halaman web jadi interaktif.&lt;/p>
 &lt;p>Contoh kode pertama:&lt;/p>
 &lt;div class="relative group my-6 text-sm font-mono">
  &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
@@ -80,7 +80,7 @@
 &amp;lt;/script&amp;gt;">
  Copy
  &lt;/button>
-&lt;/div>&lt;p>&lt;button onclick="ubahTeks()">Klik aku!&lt;/button>&lt;/p></description></item><item><title>Menghitung Luas Persegi dengan JavaScript</title><link>https://jogsdevs.github.io/kategori/javascript/menghitung-luas-persegi/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/javascript/menghitung-luas-persegi/</guid><description>&lt;p>Dalam tutorial ini, kita akan belajar cara menghitung luas persegi menggunakan JavaScript.&lt;/p>
+&lt;/div>&lt;p>&lt;button onclick="ubahTeks()">Klik aku!&lt;/button>&lt;/p></description></item><item><title>Menghitung Luas Persegi dengan JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</guid><description>&lt;p>Dalam tutorial ini, kita akan belajar cara menghitung luas persegi menggunakan JavaScript.&lt;/p>
 &lt;p>Contoh kode untuk menghitung luas persegi:&lt;/p>
 &lt;div class="relative group my-6 text-sm font-mono">
  &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
