@@ -89,3 +89,4 @@ Yang sebelah kanan jelas terlihat lebih bagus dan profesional. 😁
 Bisa dibilang template ini sudah selesai 70% dan sepertinya sudah bisa dipakai.
 Sisanya saya tinggal buat template untuk halaman-halaman lainnya seperti halaman Project,
 Taxonomy, Search, Contact, dll.
+> **ℹ️ Info**   sumber artikel dari : petanikode 🙏 trimkasih.
