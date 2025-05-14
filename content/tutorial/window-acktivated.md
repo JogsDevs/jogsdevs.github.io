@@ -90,23 +90,23 @@ Untuk aktivasi produk yang tidak didukung seperti **Office di Mac**, lihat [di s
 
 ## Tangkapan Layar
 
-![](/img/MAS_AIO.png)
+![](/images/tutorial/MAS_AIO.png)
 
-![](/img/MAS_HWID.png)
+![](/images/tutorial//MAS_HWID.png)
 
-![](/img/MAS_Ohook.png)
+![](/images/tutorial/MAS_Ohook.png)
 
-![](/img/MAS_TSforge.png)
+![](/images/tutorial/MAS_TSforge.png)
 
-![](/img/MAS_Troubleshoot.png)
+![](/images/tutorial/MAS_Troubleshoot.png)
 
-![](/img/MAS_change_windows_edition.png)
+![](/images/tutorial/MAS_change_windows_edition.png)
 
-![](/img/MAS_change_office_edition_1.png)
+![](/images/tutorial/MAS_change_office_edition_1.png)
 
-![](/img/MAS_change_office_edition_2.png)
+![](/images/tutorial/MAS_change_office_edition_2.png)
 
-![](/img/MAS_change_office_edition_3.png)
+![](/images/tutorial/MAS_change_office_edition_3.png)
 
 ---
 
