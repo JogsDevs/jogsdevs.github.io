@@ -1,23 +1,20 @@
-<table class="table-auto w-full text-sm text-gray-700 dark:text-gray-300 my-6">
-  {{ $rows := .Table.Rows }}
-  {{ if gt (len $rows) 0 }}
-    <thead class="bg-gray-200 dark:bg-gray-800">
-      <tr>
-        {{ range index $rows 0 }}
-          <th class="px-4 py-2 text-left">{{ . }}</th>
+<table class="table-auto w-full text-sm text-left text-gray-800 dark:text-gray-300 my-6 border border-gray-300 dark:border-gray-700">
+  <thead class="bg-gray-100 dark:bg-gray-800 text-sm font-semibold">
+    <tr>
+      {{ range .Cols }}
+        <th class="border border-gray-300 dark:border-gray-700 px-4 py-2">{{ . }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Rows }}
+      <tr class="border-t border-gray-300 dark:border-gray-700">
+        {{ range . }}
+          <td class="px-4 py-2 border border-gray-200 dark:border-gray-700 align-top">
+            {{ . | safeHTML }}
+          </td>
         {{ end }}
       </tr>
-    </thead>
-    <tbody>
-      {{ range $i, $row := $rows }}
-        {{ if gt $i 0 }}
-          <tr class="border-t border-gray-300 dark:border-gray-700">
-            {{ range $cell := $row }}
-              <td class="px-4 py-2">{{ $cell | safeHTML }}</td>
-            {{ end }}
-          </tr>
-        {{ end }}
-      {{ end }}
-    </tbody>
-  {{ end }}
+    {{ end }}
+  </tbody>
 </table>

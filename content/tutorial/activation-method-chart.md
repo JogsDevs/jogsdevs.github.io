@@ -10,36 +10,33 @@ image: "images/tutorials/keys.png"
 Di bawah ini adalah perbandingan metode aktivasi yang ditawarkan oleh Microsoft Activation Scripts.
 
 Dasar-dasar
-------
-| | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
+| Fitur | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
 | --- | :---: | :---: | :---: | :---: | :---: |
 | Bekerja secara offline | ❌ | ✅ | ✅ | ❌ | ✅ |
-| Aktivasi bersifat permanen | ✅ | ✅ | ✅[^1] | ✅[^2] | ✅ |
-| Tidak meninggalkan file apa pun di sistem untuk mempertahankan status aktivasi | ✅ | ❌ | ✅ | ❌ | ✅ |
+| Aktivasi bersifat permanen | ✅ | ✅ | ✅¹ | ✅² | ✅ |
+| Tidak meninggalkan file untuk aktivasi | ✅ | ❌ | ✅ | ❌ | ✅ |
+
 
 Kegigihan
------------
-| | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
+| Fitur | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Bertahan di antara perubahan perangkat keras | ❌ | ✅ | ❌ | ✅ | ✅ |
-| Bertahan di antara instalasi bersih pada perangkat keras yang sama | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Bertahan di antara pemutakhiran fitur Windows 10 / 11 | ✅ | ✅ | ✅ | ❌ |
+| Bertahan saat ganti hardware | ❌ | ✅ | ❌ | ✅ | ✅ |
+| Bertahan instal ulang bersih | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Bertahan saat upgrade fitur | ✅ | ✅ | ✅ | ❌ |  |
+
 
 Dukungan
--------
-| | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
+| Fitur | HWID | Ohook | KMS38 | KMS Online | TSforge (ZeroCID) |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Windows Vista / 7 / 8 / 8.1 | ❌ | ❌ | ❌ | ✅[^3] | ✅ |
-| Windows 10 / 11 | ✅ | ❌ | ✅[^3] | ✅[^3] | ✅ |
-| Windows Server 2008 / 2008 R2 / 2012 / 2012 R2 | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Windows Server 2016 dan yang lebih baru | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Office 2010 | ❌ | ✅ | ❌ | ✅[^3] | ❌ |
-| Office 2013 dan yang lebih baru | ❌ | ✅ | ❌ | ✅[^3] | ✅[^4] |
-| Host Windows / Office KMS | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Pembaruan Keamanan Lanjutan Windows | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Windows Vista / 7 / 8 / 8.1 | ❌ | ❌ | ❌ | ✅³ | ✅ |
+| Windows 10 / 11 | ✅ | ❌ | ✅³ | ✅³ | ✅ |
+| Windows Server 2008 - 2012 R2 | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Windows Server 2016+ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Office 2010 | ❌ | ✅ | ❌ | ✅³ | ❌ |
+| Office 2013+ | ❌ | ✅ | ❌ | ✅³ | ✅⁴ |
+| Host KMS | ❌ | ❌ | ❌ | ❌ | ✅ |
+| ESU Windows | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Add-on OCUR / RP / APPXLOB | ❌ | ❌ | ❌ | ❌ | ✅ |
-
----
 
 [^1]: Berlaku hingga tahun 2038.
 [^2]: Berlaku selama 180 hari secara default. Permanen dengan tugas pembaruan terpasang.
