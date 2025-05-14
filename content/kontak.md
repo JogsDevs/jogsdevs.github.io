@@ -9,13 +9,13 @@ type: "page"
 Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi kami melalui salah satu cara berikut:
 
 ## Alamat Email
-- **Email**: [info@example.com](mailto:info@example.com)
+- **Email**: [mailto:jogja.devs@gmail.com](mailto:jogja.devs@gmail.com)
 ---
 ## Nomor Telepon
-- **Telepon**: +62 812 3456 7890
+- **Telepon**: +62 8822 4130 806
 ---
 ## Alamat
-- **Alamat Fisik**: Jl. Raya No. 123, Jakarta
+- **Alamat Fisik**: Jl. Glagahsari No.120, Warungboto, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164, Indonesia
 ---
 ## Tulis Pesan Anda 
 {{< contact-form >}}
