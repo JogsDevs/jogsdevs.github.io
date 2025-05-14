@@ -1,18 +1,23 @@
 <table class="table-auto w-full text-sm text-gray-700 dark:text-gray-300 my-6">
-  <thead class="bg-gray-200 dark:bg-gray-800">
-    <tr>
-      {{ range .Cols }}
-        <th class="px-4 py-2 text-left">{{ . }}</th>
-      {{ end }}
-    </tr>
-  </thead>
-  <tbody>
-    {{ range .Rows }}
-      <tr class="border-t border-gray-300 dark:border-gray-700">
-        {{ range . }}
-          <td class="px-4 py-2">{{ . }}</td>
+  {{ $rows := .Table.Rows }}
+  {{ if gt (len $rows) 0 }}
+    <thead class="bg-gray-200 dark:bg-gray-800">
+      <tr>
+        {{ range index $rows 0 }}
+          <th class="px-4 py-2 text-left">{{ . }}</th>
         {{ end }}
       </tr>
-    {{ end }}
-  </tbody>
+    </thead>
+    <tbody>
+      {{ range $i, $row := $rows }}
+        {{ if gt $i 0 }}
+          <tr class="border-t border-gray-300 dark:border-gray-700">
+            {{ range $cell := $row }}
+              <td class="px-4 py-2">{{ $cell | safeHTML }}</td>
+            {{ end }}
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  {{ end }}
 </table>
