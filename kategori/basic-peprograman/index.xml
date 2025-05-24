@@ -13,8 +13,8 @@ perintah Linux dengan mengimpor modul &lt;code>os&lt;/code>.&lt;/p>
 perintah Linux, yaitu: &lt;code>system()&lt;/code>.&lt;/p></description></item><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugo-theme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugo-theme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
 Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain, hehe.&lt;/p>
 &lt;p>Kemarin (15/05/2023), saya mulai develop tema baru.&lt;/p>
-&lt;div class="relative group my-6 text-sm font-mono">
- &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
  &lt;code>&lt;div class="">hugo new theme ardianta&lt;/div>
  
  &lt;/code>
@@ -27,8 +27,8 @@ Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain
 &lt;/div>&lt;p>Untuk sementara, nama theme-nya adalah &lt;code>ardianta&lt;/code>. Mungkin nanti kalau sudah jadi akan saya ubah
 dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
 &lt;p>Contoh CSS untuk responsive design:&lt;/p>
-&lt;div class="relative group my-6 text-sm font-mono">
- &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
  &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
  &lt;div class=""> /* Default untuk desktop */&lt;/div>
  &lt;div class=""> .container {&lt;/div>
