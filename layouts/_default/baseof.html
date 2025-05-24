@@ -14,10 +14,7 @@
     <meta property="og:site_name" content="{{ .Site.Title }}">
   
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    
-    
-    <!-- Highlight.js CSS -->
-    <link rel="stylesheet" href="{{ "css/github-dark.min.css" | relURL }}">
+
     <!-- Link ke stylesheet yang sudah dibuild -->
     <link rel="stylesheet" href="{{ "css/output.css" | relURL }}" />
 </head>
@@ -38,8 +35,6 @@
     <!-- Footer -->
     {{ partial "footer.html" . }}
 
-    <!-- Highlight.js script -->
-    <script src="{{ "js/highlight.min.js" | relURL }}"></script>
-    <script>hljs.highlightAll();</script>
+
 </body>
 </html>

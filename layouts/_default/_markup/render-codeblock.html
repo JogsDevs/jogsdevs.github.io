@@ -1,5 +1,5 @@
-<div class="relative group my-6 text-sm font-mono">
-  <pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
+<div class="code-block relative group my-4">
+  <pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
     <code>
       {{- $lines := split (.Inner | htmlUnescape) "\n" -}}
       {{- range $i, $line := $lines -}}
