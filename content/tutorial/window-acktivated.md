@@ -12,7 +12,32 @@ Skrip aktivasi Windows dan Office open-source yang mendukung metode aktivasi HWI
 
 ### Cara Aktivasi Windows / Office?
 
-#### Metode 1 - PowerShell (Windows 8 ke atas) ❤️
+# Aktivasi Microsoft
+
+Aktivator Windows dan Office open-source dengan metode aktivasi HWID, Ohook, TSforge, KMS38, dan Online KMS, dilengkapi pemecahan masalah lanjutan.
+
+---
+
+### Bagaimana Mengaktifkan Windows/Office?
+
+#### Metode 1 - PowerShell (Windows 8 dan versi lebih baru) ❤️
+
+> info
+
+1. **Buka PowerShell**  
+   Tekan tombol Windows + X, lalu pilih PowerShell atau Terminal.
+
+2. **Salin dan tempel kode berikut, lalu tekan enter.**  
+
+```pwsh
+irm https://get.activated.win | iex
+```
+
+Alternatif (akan dihentikan di masa depan):
+
+```
+irm https://massgrave.dev/get | iex
+```
 
 #### Metode 2 - Tradisional (Windows Vista ke atas)
 
@@ -45,6 +70,14 @@ Skrip aktivasi Windows dan Office open-source yang mendukung metode aktivasi HWI
 * Jika masalah masih berlanjut, silakan hubungi kami [di sini](troubleshoot.md).
 
 ---
+
+:::note
+
+- Perintah IRM di PowerShell mengunduh skrip dari URL tertentu, dan IEX menjalankannya.
+- Selalu periksa URL sebelum menjalankan perintah dan pastikan sumber terpercaya saat mengunduh file manual.
+- Hati-hati, beberapa menyebarkan malware yang menyamar sebagai MAS dengan mengubah URL di perintah IRM.
+
+:::
 
 ---
 
@@ -109,6 +142,3 @@ Untuk aktivasi produk yang tidak didukung seperti **Office di Mac**, lihat [di s
 ---
 
 Dibuat dengan Cinta ❤️
-
-
-[def]: /images/tutorials/MAS_change_office_edition_3.png

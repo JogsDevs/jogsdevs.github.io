@@ -5,7 +5,7 @@
 
 <!-- KATEGORI CARD SECTION -->
 <section class="py-16 bg-slate-50 dark:bg-gray-900">
-  <div class="max-w-7xl mx-auto px-4">
+  <div class="max-w-7xl mx-auto px-8">
     <div class="text-sm font-bold uppercase text-gray-400 mb-2">
       Kategori</div>
     <h2 class="text-3xl font-bold tracking-tight mb-2 text-left">
@@ -15,7 +15,7 @@
       Temukan tutorial berdasarkan minatmu.
     </p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
       {{ range where (where (where .Site.Pages "Section" "kategori") "IsSection" true) "File.Path" "!=" "kategori/_index.md" }}
         <a href="{{ .RelPermalink }}"
            class="block p-6 bg-gray-100 text-slate-800 dark:bg-gray-800 dark:text-white rounded-xl shadow hover:shadow-lg transition-all flex flex-col justify-start">

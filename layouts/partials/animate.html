@@ -1,0 +1,6 @@
+<div class="animate-item" data-animate>
+  {{ .Inner }}
+</div>
+
+{{ $animateJS := resources.Get "js/animate.js" | js.Build | minify }}
+<script src="{{ $animateJS.RelPermalink }}" defer></script>

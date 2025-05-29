@@ -21,9 +21,16 @@ toc = true
 
 [outputs]
 home = ["HTML", "JSON"]
+section = ["HTML", "RSS"]
+software = ["HTML"]  # Format khusus
+
+[mediaTypes]
+[mediaTypes."text/html"]
+suffixes = ["html"]
 
 [params]
   searchTypes = ["tutorial", "slug", "kategori"]
+  teraboxBase = "https://terabox.com/s/"
   description = "Website resmi Jogja Devs, komunitas dan layanan developer Jogja."
   keywords = "jogja, devs, komunitas, developer, jasa, website, teknologi"
   author = "JogsDevs Team"

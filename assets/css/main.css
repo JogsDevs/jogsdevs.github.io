@@ -7,6 +7,7 @@
 
 /* Tambahkan custom styles setelahnya */
 @layer components {
+
   /* Kode custom component */
   .btn-primary {
     @apply bg-emerald-500 text-white px-6 py-3 rounded-lg;
@@ -15,9 +16,80 @@
   .btn-secondary {
     @apply bg-emerald-100 text-white px-6 py-3 rounded-lg;
   }
+
+  .software-card {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  /* Download section styles */
+  .download-section {
+    transition: all 0.3s ease;
+  }
+
+  .download-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .download-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .download-btn {
+    transition: all 0.2s ease;
+  }
+
+  .download-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Khusus untuk fancybox - perlu !important untuk menimpa style default */
+  .fancybox__toolbar {
+    @apply !bg-gray-900/60;
+  }
+
+  .fancybox__button--zoom,
+  .fancybox__button--slideshow,
+  .fancybox__button--fullscreen,
+  .fancybox__button--thumbs {
+    @apply !hidden;
+  }
+
+  .animate-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .animate-item.animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Animasi untuk card software */
+  .hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-scale:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style untuk version badge */
+  .version-badge {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 @layer utilities {
+
   /* Kode custom utilities */
   .animate-fade-in {
     @apply opacity-0 translate-y-4 transition-all duration-700 ease-out;
@@ -25,7 +97,14 @@
   }
 
   @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(4px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }

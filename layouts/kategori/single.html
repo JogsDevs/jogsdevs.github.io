@@ -1,12 +1,14 @@
 {{ define "main" }}
 <section class="py-16 bg-white dark:bg-gray-900">
-  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-8 dark:text-articleText text-articleTextLight">
+  <div
+    class="container flex mx-auto px-8 max-w-7xl grid grid-cols-1 md:grid-cols-12 gap-8 dark:text-articleText text-articleTextLight">
 
     <!-- Konten Utama -->
     <article class="md:col-span-9 text-left">
       <!-- Gambar Thumbnail -->
       {{ with .Params.image }}
-        <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}" class="rounded-lg mb-4 w-1/2 max-h-[200px] object-cover" />
+      <img src="{{ . | relURL }}" alt="Thumbnail {{ $.Title }}"
+        class="rounded-lg mb-4 w-1/2 max-h-[200px] object-cover" />
       {{ end }}
 
       <!-- Judul Produk -->
@@ -16,8 +18,10 @@
       <div class="prose dark:prose-dark dark:prose-invert mb-6">
         {{ .Content }}
       </div>
+
+      
     </article>
-    
+
     <!-- Sidebar -->
     <aside class="md:col-span-3">
       {{ partial "sidebar-kategori.html" . }}
@@ -25,8 +29,7 @@
 
     <!-- Tombol Kembali -->
     <div class="md:col-span-12 mb-4">
-      <button 
-        onclick="window.location.href='{{ .CurrentSection.RelPermalink }}'" 
+      <button onclick="window.location.href='{{ .CurrentSection.RelPermalink }}'"
         class="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-primary rounded hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500">
         ← Kembali ke Kategori {{ .CurrentSection.Title }}
       </button>
