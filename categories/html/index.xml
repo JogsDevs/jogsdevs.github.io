@@ -2,8 +2,8 @@
 &lt;ul>
 &lt;li>&lt;strong>Membuat Link&lt;/strong> dengan tag &lt;code>&amp;lt;a&amp;gt;&lt;/code>:&lt;/li>
 &lt;/ul>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
  &lt;code>&lt;div class="">&amp;lt;a href=&amp;#34;https://www.example.com&amp;#34;&amp;gt;Kunjungi Website&amp;lt;/a&amp;gt;&lt;/div>
  
  &lt;/code>
@@ -21,8 +21,8 @@
 &lt;li>&lt;code>&amp;lt;section&amp;gt;&lt;/code>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
 &lt;/ul>
 &lt;p>Contoh struktur dasar HTML:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
  &lt;code>&lt;div class="">&amp;lt;!DOCTYPE html&amp;gt;&lt;/div>
  &lt;div class="">&amp;lt;html lang=&amp;#34;id&amp;#34;&amp;gt;&lt;/div>
  &lt;div class="">&amp;lt;head&amp;gt;&lt;/div>

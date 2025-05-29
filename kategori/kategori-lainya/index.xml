@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kategori Lainya on CodeCraft</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/</link><description>Recent content in Kategori Lainya on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/kategori-lainya/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Link dan Menyisipkan Gambar</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/link-dan-gambar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/link-dan-gambar/</guid><description>&lt;p>Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kategori List on CodeCraft</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/</link><description>Recent content in Kategori List on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/kategori-lainya/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Link dan Menyisipkan Gambar</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/link-dan-gambar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/link-dan-gambar/</guid><description>&lt;p>Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Membuat Link&lt;/strong> dengan tag &lt;code>&amp;lt;a&amp;gt;&lt;/code>:&lt;/li>
 &lt;/ul>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
  &lt;code>&lt;div class="">&amp;lt;a href=&amp;#34;https://www.example.com&amp;#34;&amp;gt;Kunjungi Website&amp;lt;/a&amp;gt;&lt;/div>
  
  &lt;/code>
@@ -21,8 +21,8 @@
 &lt;li>&lt;code>&amp;lt;section&amp;gt;&lt;/code>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
 &lt;/ul>
 &lt;p>Contoh struktur dasar HTML:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+&lt;div class="relative group my-6 text-sm font-mono">
+ &lt;pre class="bg-gray-700 text-white rounded-xl p-4 overflow-x-auto leading-relaxed">
  &lt;code>&lt;div class="">&amp;lt;!DOCTYPE html&amp;gt;&lt;/div>
  &lt;div class="">&amp;lt;html lang=&amp;#34;id&amp;#34;&amp;gt;&lt;/div>
  &lt;div class="">&amp;lt;head&amp;gt;&lt;/div>
