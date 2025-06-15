@@ -88,6 +88,21 @@
   }
 }
 
+pre, code{
+  max-width: 100%;
+  overflow-x: auto;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color:transparent;
+  color: #fff;
+  font-size: medium;
+  border-radius: 0,5rem;
+}
+
 @layer utilities {
 
   /* Kode custom utilities */

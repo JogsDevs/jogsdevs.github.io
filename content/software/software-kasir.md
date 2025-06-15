@@ -3,7 +3,7 @@ title: "Aplikasi Kasir POS"
 description: "Software kasir modern cocok untuk UMKM dan toko retail."
 download: "/download/CodeCraft.zip"
 image: "/images/software/pos-pro.png"
-price: "Rp499.000"
+price: "Free"
 date: 2025-05-01
 summary: "Sistem kasir lengkap dengan fitur stok, laporan penjualan, dan dukungan multi-cabang."
 ---

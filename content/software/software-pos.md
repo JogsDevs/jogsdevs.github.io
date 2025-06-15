@@ -2,7 +2,7 @@
 title: "Aplikasi Akuntansi Lite"
 description: "Software akuntansi sederhana dan cepat untuk freelancer, UKM, atau bisnis kecil."
 summary: "Kelola transaksi, laporan keuangan, dan invoice dengan mudah. Ringan dan tanpa instalasi rumit."
-price: "Rp299.000"
+price: "Free"
 image: "/images/software/akuntansi-lite.png"
 download: "/download/AkuntansiLite.zip"
 date: 2025-05-07

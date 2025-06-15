@@ -1,4 +1,4 @@
-baseURL = 'https://jogsdevs.github.io/'
+baseURL = 'http://localhost:1313/'
 title = 'CodeCraft'
 languageCode = 'id'
 

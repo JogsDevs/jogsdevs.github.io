@@ -1,5 +1,5 @@
 ---
-title: "Merchant Petani kode"
+title: "Software"
 description: "Temukan berbagai Tools dan Software."
 icon: "book-open"
 ---
