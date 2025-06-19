@@ -22,41 +22,29 @@ Join Newsletter
 <i data-lucide=arrow-up class="w-5 h-5"></i></button></div><main class=flex-grow><section class="py-16 bg-white dark:bg-gray-900"><div class="container flex mx-auto px-8 max-w-7xl grid grid-cols-1 md:grid-cols-12 gap-8 dark:text-articleText text-articleTextLight"><article class="md:col-span-9 text-left"><img src=/images/kategori/python-sqr.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="rounded-lg mb-4 w-1/2 max-h-[200px] object-cover"><h1 class="text-3xl font-bold dark:text-articleText text-articleTextLight mb-4">Isengin Web Python dan dapat akses Shell Linux Gratis!</h1><div class="prose dark:prose-dark dark:prose-invert mb-6"><p>Karena habis gentayangan di beberapa cloud workspace
 seperti c9.io, codenvy, dan glitch saya tiba-tiba
 kepikiran untuk mengakses shell dari web Python.</p><p>Di website Python, terdapat shell python yang
-bisa kita gunakan untuk ujicaoba kode python.</p><p>Lalu, bagaimana kalau&mldr;</p><p>Kita akses shell seperti <code>bash</code> atau <code>zsh</code> di sana?</p><p>Ya, itu bisa.</p><p>Caranya:</p><p>Pertama saya coba-coba dulu menjalankan
-perintah Linux dengan mengimpor modul <code>os</code>.</p><p>Di dalam modul <code>os</code>, terdapat fungsi untuk menjalankan
-perintah Linux, yaitu: <code>system()</code>.</p><div class="code-block relative group my-4"><pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
-    <code><div>import os</div>
-        <div></div>
-        <div>os.system(&#39;ls&#39;)</div>
-        <div>os.system(&#39;pwd&#39;)</div>
-        <div>os.system(&#39;ls -la /&#39;)</div>
-        
-    </code>
-  </pre><button class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition" data-code="import os
-
-os.system('ls')
-os.system('pwd')
-os.system('ls -la /')">
-Copy</button></div><p>Outputnya kira-kira begini:</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/web-python-interaktif.png alt="Python interaktif di website python" loading=lazy data-zoom-src=/images/kategori/python/web-python-interaktif.png></figure></div></p><p>Melihat output dari perintah-peritah itu,
-saya jadi semakin penasaran&mldr;</p><p>Bagaimana kalau kita buka <code>bash</code> atau <code>zsh</code>?</p><p>Ya, tinggal eksekusi saja perintah buat buka
-<code>bash</code> dan <code>zsh</code>.</p><div class="code-block relative group my-4"><pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
-    <code><div>from os import system</div>
-        <div></div>
-        <div>system(&#39;bash&#39;)</div>
-        
-    </code>
-  </pre><button class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition" data-code="from os import system
-
-system('bash')">
-Copy</button></div><p>dan&mldr;</p><p>Boom!</p><p>Kita dapat akses shell Linux.</p><p>Sekarang kita mau ngapain?</p><p>Oke, mari kita coba cek ada apa saja di sini.</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/c-ruby.png alt="GCC dan Ruby di website Python" loading=lazy data-zoom-src=/images/kategori/python/c-ruby.png></figure></div></p><p>Woh! ada <code>gcc</code>, <code>g++</code>, dan juga <code>ruby</code>.</p><p>Kalau <code>git</code> ada tidak?</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/git.png alt="Git di website Python" loading=lazy data-zoom-src=/images/kategori/python/git.png></figure></div></p><p>Tentu saja ada.</p><p>Oya, shell ini terhubung dengan internet.
+bisa kita gunakan untuk ujicaoba kode python.</p><p>Lalu, bagaimana kalau&mldr;</p><p>Kita akses shell seperti <strong>bash</strong> atau <strong>zsh</strong> di sana?</p><p>Ya, itu bisa.</p><p>Caranya:</p><p>Pertama saya coba-coba dulu menjalankan
+perintah Linux dengan mengimpor modul <strong>os</strong>.</p><p>Di dalam modul <strong>os</strong>, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: <strong>system()</strong>.</p><div class="code-block relative my-6" id=code-block-1750316725251357207><div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md"><span class="code-language font-mono text-sm">python</span>
+<button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+Salin</button></div><div class="code-content overflow-x-auto bg-gray-900 rounded-b-md"><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>import</span> os
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>os<span style=color:#f92672>.</span>system(<span style=color:#e6db74>&#39;ls&#39;</span>)
+</span></span><span style=display:flex><span>os<span style=color:#f92672>.</span>system(<span style=color:#e6db74>&#39;pwd&#39;</span>)
+</span></span><span style=display:flex><span>os<span style=color:#f92672>.</span>system(<span style=color:#e6db74>&#39;ls -la /&#39;</span>)</span></span></code></pre></div></div></div><script>(function(){document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("code-block-1750316725251357207");if(!e)return;const t=e.querySelector(".copy-button");if(!t)return;t.addEventListener("click",function(){const t=e.querySelector(".code-content").textContent;navigator.clipboard.writeText(t).then(()=>{const e=this.textContent;this.textContent="Tersalin!",this.classList.add("bg-green-700"),setTimeout(()=>{this.textContent=e,this.classList.remove("bg-green-700")},2e3)}).catch(e=>{console.error("Gagal menyalin: ",e)})})})})()</script><p>Outputnya kira-kira begini:</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/web-python-interaktif.png alt="Python interaktif di website python" loading=lazy data-zoom-src=/images/kategori/python/web-python-interaktif.png></figure></div></p><p>Melihat output dari perintah-peritah itu,
+saya jadi semakin penasaran&mldr;</p><p>Bagaimana kalau kita buka <strong>bash</strong> atau <strong>zsh</strong>?</p><p>Ya, tinggal eksekusi saja perintah buat buka
+<strong><em>bash</em></strong> dan <strong><em>zsh</em></strong>.</p><div class="code-block relative my-6" id=code-block-1750316725255626725><div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md"><span class="code-language font-mono text-sm">python</span>
+<button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+Salin</button></div><div class="code-content overflow-x-auto bg-gray-900 rounded-b-md"><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> os <span style=color:#f92672>import</span> system
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>system(<span style=color:#e6db74>&#39;bash&#39;</span>)</span></span></code></pre></div></div></div><script>(function(){document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("code-block-1750316725255626725");if(!e)return;const t=e.querySelector(".copy-button");if(!t)return;t.addEventListener("click",function(){const t=e.querySelector(".code-content").textContent;navigator.clipboard.writeText(t).then(()=>{const e=this.textContent;this.textContent="Tersalin!",this.classList.add("bg-green-700"),setTimeout(()=>{this.textContent=e,this.classList.remove("bg-green-700")},2e3)}).catch(e=>{console.error("Gagal menyalin: ",e)})})})})()</script><p>dan&mldr;</p><p>Boom!</p><p>Kita dapat akses shell Linux.</p><p>Sekarang kita mau ngapain?</p><p>Oke, mari kita coba cek ada apa saja di sini.</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/c-ruby.png alt="GCC dan Ruby di website Python" loading=lazy data-zoom-src=/images/kategori/python/c-ruby.png></figure></div></p><p>Woh! ada <strong>gcc</strong>, <strong>g++</strong>, dan juga <strong>ruby</strong>.</p><p>Kalau <strong>git</strong> ada tidak?</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/git.png alt="Git di website Python" loading=lazy data-zoom-src=/images/kategori/python/git.png></figure></div></p><p>Tentu saja ada.</p><p>Oya, shell ini terhubung dengan internet.
 Coba saja kita clone repository dari Github
-atau coba download sesuatu dengan <code>wget</code> dan <code>curl</code>.</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/wget.png alt="Wget dari shell di Web Python" loading=lazy data-zoom-src=/images/kategori/python/wget.png></figure></div></p></div></article><aside class=md:col-span-3><div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6"><div><h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2"><i data-lucide=folder class="w-5 h-5 text-yellow-500"></i>
+atau coba download sesuatu dengan <strong>wget</strong> dan <strong>curl</strong>.</p><p><div class=not-prose><figure><img class=zoom-target src=/images/kategori/python/wget.png alt="Wget dari shell di Web Python" loading=lazy data-zoom-src=/images/kategori/python/wget.png></figure></div></p></div></article><aside class=md:col-span-3><div class="bg-slate-100 dark:bg-gray-800 rounded-xl p-6 shadow space-y-6"><div><h2 class="flex items-center gap-2 text-xl font-semibold mb-3 text-gray-700 dark:text-gray-200 border-b border-gray-300 dark:border-gray-700 pb-2"><i data-lucide=folder class="w-5 h-5 text-yellow-500"></i>
 Kategori Terbaru</h2><ul class=space-y-4><li class="flex items-center gap-3"><img src=/images/kategori/javascript-logo.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="w-10 h-10 object-cover rounded-md">
 <a href=/kategori/web-programing/event-handler/ class="text-sm hover:underline transition
 text-yellow-600">Event Handler di JavaScript</a></li><li class="flex items-center gap-3"><img src=/images/kategori/javascript-logo.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="w-10 h-10 object-cover rounded-md">
 <a href=/kategori/web-programing/hello-javascript/ class="text-sm hover:underline transition
 text-yellow-600">Hello JavaScript!</a></li><li class="flex items-center gap-3"><img src=/images/kategori/html-logo.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="w-10 h-10 object-cover rounded-md">
-<a href=/kategori/kategori-lainya/link-dan-gambar/ class="text-sm hover:underline transition
+<a href=/kategori/kategori/link-dan-gambar/ class="text-sm hover:underline transition
 text-yellow-600">Membuat Link dan Menyisipkan Gambar</a></li><li class="flex items-center gap-3"><img src=/images/kategori/javascript-logo.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="w-10 h-10 object-cover rounded-md">
 <a href=/kategori/web-programing/menghitung-luas-persegi/ class="text-sm hover:underline transition
 text-yellow-600">Menghitung Luas Persegi dengan JavaScript</a></li><li class="flex items-center gap-3"><img src=/images/kategori/hugo.png alt="Thumbnail Isengin Web Python dan dapat akses Shell Linux Gratis!" class="w-10 h-10 object-cover rounded-md">

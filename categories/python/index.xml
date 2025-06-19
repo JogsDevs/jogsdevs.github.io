@@ -4,10 +4,10 @@ kepikiran untuk mengakses shell dari web Python.&lt;/p>
 &lt;p>Di website Python, terdapat shell python yang
 bisa kita gunakan untuk ujicaoba kode python.&lt;/p>
 &lt;p>Lalu, bagaimana kalau&amp;hellip;&lt;/p>
-&lt;p>Kita akses shell seperti &lt;code>bash&lt;/code> atau &lt;code>zsh&lt;/code> di sana?&lt;/p>
+&lt;p>Kita akses shell seperti &lt;strong>bash&lt;/strong> atau &lt;strong>zsh&lt;/strong> di sana?&lt;/p>
 &lt;p>Ya, itu bisa.&lt;/p>
 &lt;p>Caranya:&lt;/p>
 &lt;p>Pertama saya coba-coba dulu menjalankan
-perintah Linux dengan mengimpor modul &lt;code>os&lt;/code>.&lt;/p>
-&lt;p>Di dalam modul &lt;code>os&lt;/code>, terdapat fungsi untuk menjalankan
-perintah Linux, yaitu: &lt;code>system()&lt;/code>.&lt;/p></description></item></channel></rss>
+perintah Linux dengan mengimpor modul &lt;strong>os&lt;/strong>.&lt;/p>
+&lt;p>Di dalam modul &lt;strong>os&lt;/strong>, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: &lt;strong>system()&lt;/strong>.&lt;/p></description></item></channel></rss>

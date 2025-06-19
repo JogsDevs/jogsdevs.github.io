@@ -1,112 +1,237 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programing on CodeCraft</title><link>https://jogsdevs.github.io/kategori/web-programing/</link><description>Recent content in Web Programing on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/web-programing/index.xml" rel="self" type="application/rss+xml"/><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
 &lt;p>Contoh penggunaan event handler:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">&amp;lt;button id=&amp;#34;tombol&amp;#34;&amp;gt;Klik saya!&amp;lt;/button&amp;gt;&lt;/div>
- &lt;div class="">&amp;lt;p id=&amp;#34;pesan&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class="">&amp;lt;script&amp;gt;&lt;/div>
- &lt;div class=""> const tombol = document.getElementById(&amp;#34;tombol&amp;#34;);&lt;/div>
- &lt;div class=""> tombol.addEventListener(&amp;#34;click&amp;#34;, function() {&lt;/div>
- &lt;div class=""> document.getElementById(&amp;#34;pesan&amp;#34;).innerText = &amp;#34;Tombol telah diklik!&amp;#34;;&lt;/div>
- &lt;div class=""> });&lt;/div>
- &lt;div class="">&amp;lt;/script&amp;gt;&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;button id=&amp;#34;tombol&amp;#34;&amp;gt;Klik saya!&amp;lt;/button&amp;gt;
-&amp;lt;p id=&amp;#34;pesan&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
 
-&amp;lt;script&amp;gt;
- const tombol = document.getElementById(&amp;#34;tombol&amp;#34;);
- tombol.addEventListener(&amp;#34;click&amp;#34;, function() {
- document.getElementById(&amp;#34;pesan&amp;#34;).innerText = &amp;#34;Tombol telah diklik!&amp;#34;;
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725271880733">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;tombol&amp;#34;&lt;/span>&amp;gt;Klik saya!&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pesan&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">tombol&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;tombol&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">tombol&lt;/span>.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;click&amp;#34;&lt;/span>, &lt;span style="color:#66d9ef">function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;pesan&amp;#34;&lt;/span>).&lt;span style="color:#a6e22e">innerText&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Tombol telah diklik!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725271880733');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
  });
-&amp;lt;/script&amp;gt;">
- Copy
- &lt;/button>
-&lt;/div></description></item><item><title>Hello JavaScript!</title><link>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</guid><description>&lt;p>JavaScript adalah bahasa pemrograman untuk membuat halaman web jadi interaktif.&lt;/p>
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>Hello JavaScript!</title><link>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</guid><description>&lt;p>JavaScript adalah bahasa pemrograman untuk membuat halaman web jadi interaktif.&lt;/p>
 &lt;p>Contoh kode pertama:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">function hello() {&lt;/div>
- &lt;div class=""> console.log(&amp;#34;Hello world!&amp;#34;);&lt;/div>
- &lt;div class="">}&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="function hello() {
- console.log(&amp;#34;Hello world!&amp;#34;);
-}">
- Copy
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725306589675">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">js&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
  &lt;/button>
-&lt;/div>&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">&amp;lt;script&amp;gt;&lt;/div>
- &lt;div class=""> console.log(&amp;#34;Halo dari JavaScript!&amp;#34;);&lt;/div>
- &lt;div class=""> alert(&amp;#34;Selamat datang di website saya!&amp;#34;);&lt;/div>
- &lt;div class="">&amp;lt;/script&amp;gt;&lt;/div>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">hello&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello world!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725306589675');
+ if (!block) return;
  
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;script&amp;gt;
- console.log(&amp;#34;Halo dari JavaScript!&amp;#34;);
- alert(&amp;#34;Selamat datang di website saya!&amp;#34;);
-&amp;lt;/script&amp;gt;">
- Copy
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725306967831">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
  &lt;/button>
-&lt;/div>&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">&amp;lt;script&amp;gt;&lt;/div>
- &lt;div class=""> function ubahTeks() {&lt;/div>
- &lt;div class=""> document.getElementById(&amp;#34;teks&amp;#34;).innerText = &amp;#34;Teks telah diubah!&amp;#34;;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&amp;lt;/script&amp;gt;&lt;/div>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Halo dari JavaScript!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Selamat datang di website saya!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725306967831');
+ if (!block) return;
  
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;script&amp;gt;
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725307357789">&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md rounded-t-md">
+ &lt;pre tabindex="0">&lt;code>&amp;lt;script&amp;gt;
  function ubahTeks() {
  document.getElementById(&amp;#34;teks&amp;#34;).innerText = &amp;#34;Teks telah diubah!&amp;#34;;
  }
-&amp;lt;/script&amp;gt;">
- Copy
- &lt;/button>
-&lt;/div>&lt;p>&lt;button onclick="ubahTeks()">Klik aku!&lt;/button>&lt;/p></description></item><item><title>Menghitung Luas Persegi dengan JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</guid><description>&lt;p>Dalam tutorial ini, kita akan belajar cara menghitung luas persegi menggunakan JavaScript.&lt;/p>
-&lt;p>Contoh kode untuk menghitung luas persegi:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">&amp;lt;script&amp;gt;&lt;/div>
- &lt;div class=""> function hitungLuas() {&lt;/div>
- &lt;div class=""> const sisi = prompt(&amp;#34;Masukkan panjang sisi persegi:&amp;#34;);&lt;/div>
- &lt;div class=""> const luas = sisi * sisi;&lt;/div>
- &lt;div class=""> alert(&amp;#34;Luas persegi adalah: &amp;#34; &amp;#43; luas);&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&amp;lt;/script&amp;gt;&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class="">&amp;lt;button onclick=&amp;#34;hitungLuas()&amp;#34;&amp;gt;Hitung Luas Persegi&amp;lt;/button&amp;gt;&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;script&amp;gt;
- function hitungLuas() {
- const sisi = prompt(&amp;#34;Masukkan panjang sisi persegi:&amp;#34;);
- const luas = sisi * sisi;
- alert(&amp;#34;Luas persegi adalah: &amp;#34; &amp;#43; luas);
- }
-&amp;lt;/script&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code>&lt;/pre>
+ &lt;/div>
+&lt;/div>
 
-&amp;lt;button onclick=&amp;#34;hitungLuas()&amp;#34;&amp;gt;Hitung Luas Persegi&amp;lt;/button&amp;gt;">
- Copy
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725307357789');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>&lt;p>&lt;button onclick="ubahTeks()">Klik aku!&lt;/button>&lt;/p></description></item><item><title>Menghitung Luas Persegi dengan JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</guid><description>&lt;p>Dalam tutorial ini, kita akan belajar cara menghitung luas persegi menggunakan JavaScript.&lt;/p>
+&lt;p>Contoh kode untuk menghitung luas persegi:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725274759155">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
  &lt;/button>
-&lt;/div></description></item></channel></rss>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">hitungLuas&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Masukkan panjang sisi persegi:&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">luas&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span> &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Luas persegi adalah: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">luas&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">onclick&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;hitungLuas()&amp;#34;&lt;/span>&amp;gt;Hitung Luas Persegi&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725274759155');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item></channel></rss>

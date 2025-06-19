@@ -4,88 +4,125 @@ kepikiran untuk mengakses shell dari web Python.&lt;/p>
 &lt;p>Di website Python, terdapat shell python yang
 bisa kita gunakan untuk ujicaoba kode python.&lt;/p>
 &lt;p>Lalu, bagaimana kalau&amp;hellip;&lt;/p>
-&lt;p>Kita akses shell seperti &lt;code>bash&lt;/code> atau &lt;code>zsh&lt;/code> di sana?&lt;/p>
+&lt;p>Kita akses shell seperti &lt;strong>bash&lt;/strong> atau &lt;strong>zsh&lt;/strong> di sana?&lt;/p>
 &lt;p>Ya, itu bisa.&lt;/p>
 &lt;p>Caranya:&lt;/p>
 &lt;p>Pertama saya coba-coba dulu menjalankan
-perintah Linux dengan mengimpor modul &lt;code>os&lt;/code>.&lt;/p>
-&lt;p>Di dalam modul &lt;code>os&lt;/code>, terdapat fungsi untuk menjalankan
-perintah Linux, yaitu: &lt;code>system()&lt;/code>.&lt;/p></description></item><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
+perintah Linux dengan mengimpor modul &lt;strong>os&lt;/strong>.&lt;/p>
+&lt;p>Di dalam modul &lt;strong>os&lt;/strong>, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: &lt;strong>system()&lt;/strong>.&lt;/p></description></item><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
 Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain, hehe.&lt;/p>
 &lt;p>Kemarin (15/05/2023), saya mulai develop tema baru.&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">hugo new theme ardianta&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="hugo new theme ardianta">
- Copy
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725252277258">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">bash&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
  &lt;/button>
-&lt;/div>&lt;p>Untuk sementara, nama theme-nya adalah &lt;code>ardianta&lt;/code>. Mungkin nanti kalau sudah jadi akan saya ubah
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new theme ardianta&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725252277258');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>&lt;p>Untuk sementara, nama theme-nya adalah &lt;strong>Ichal&lt;/strong>. Mungkin nanti kalau sudah jadi akan saya ubah
 dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
 &lt;p>Contoh CSS untuk responsive design:&lt;/p>
-&lt;div class="code-block relative group my-4">
- &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
- &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
- &lt;div class=""> /* Default untuk desktop */&lt;/div>
- &lt;div class=""> .container {&lt;/div>
- &lt;div class=""> width: 80%;&lt;/div>
- &lt;div class=""> margin: 0 auto;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class=""> /* Untuk tablet */&lt;/div>
- &lt;div class=""> @media (max-width: 768px) {&lt;/div>
- &lt;div class=""> .container {&lt;/div>
- &lt;div class=""> width: 90%;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class=""> /* Untuk ponsel */&lt;/div>
- &lt;div class=""> @media (max-width: 480px) {&lt;/div>
- &lt;div class=""> .container {&lt;/div>
- &lt;div class=""> width: 100%;&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class=""> }&lt;/div>
- &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
- &lt;div class="">&lt;/div>
- &lt;div class="">&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&lt;/div>
- &lt;div class=""> &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;&lt;/div>
- &lt;div class=""> &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;&lt;/div>
- &lt;div class="">&amp;lt;/div&amp;gt;&lt;/div>
- 
- &lt;/code>
- &lt;/pre>
- &lt;button
- class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
- data-code="&amp;lt;style&amp;gt;
- /* Default untuk desktop */
- .container {
- width: 80%;
- margin: 0 auto;
- }
 
- /* Untuk tablet */
- @media (max-width: 768px) {
- .container {
- width: 90%;
- }
- }
 
- /* Untuk ponsel */
- @media (max-width: 480px) {
- .container {
- width: 100%;
- }
- }
-&amp;lt;/style&amp;gt;
 
-&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;
- &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;
- &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;">
- Copy
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750316725256423382">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
  &lt;/button>
-&lt;/div></description></item></channel></rss>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Default untuk desktop */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">80&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#66d9ef">auto&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Untuk tablet */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">768px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">90&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Untuk ponsel */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">480px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">100&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;container&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;Responsive Design&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750316725256423382');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item></channel></rss>
