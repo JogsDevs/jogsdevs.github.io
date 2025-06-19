@@ -1,12 +1,20 @@
-<div class="relative group my-6 w-full">
-  <div class="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto flex justify-center items-center">
-    <pre class="m-0 text-center">
-      <code class="language-cmd">
-        {{- .Inner | safeHTML -}}
-      </code>
-    </pre>
-        <button
-      class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
-      data-code="{{ .Inner | htmlUnescape }}">
-      Copy
-    </button>
+<div class="code-block relative group my-4">
+  <pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+    <code>
+      {{- $lines := split (.Inner | htmlUnescape) "\n" -}}
+      {{- range $i, $line := $lines -}}
+        {{- $highlight := false -}}
+        {{- if in $line "// highlight-line" -}}
+          {{- $highlight = true -}}
+          {{- $line = replace $line "// highlight-line" "" -}}
+        {{- end -}}
+      <div class="{{ if $highlight }}bg-yellow-500/10 border-l-4 border-yellow-400 pl-2{{ end }}">{{ $line }}</div>
+        {{ end }}
+    </code>
+  </pre>
+  <button
+    class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+    data-code="{{ .Inner | htmlUnescape }}">
+    Copy
+  </button>
+</div>
