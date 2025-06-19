@@ -35,7 +35,7 @@ irm https://get.activated.win | iex
 
 Alternatif (akan dihentikan di masa depan):
 
-```
+```powershell
 irm https://massgrave.dev/get | iex
 ```
 
@@ -45,12 +45,19 @@ irm https://massgrave.dev/get | iex
   <summary>Klik di sini untuk melihat</summary>
 
 1. Unduh file menggunakan salah satu tautan di bawah ini:
-   `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`
+   
+   ```Download
+   https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip
+   ```
    atau
-   `https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip`
+
+   ```Download
+   https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip
+   ```
+
 2. Klik kanan pada file zip yang telah diunduh dan ekstrak isinya.
-3. Di dalam folder hasil ekstrak, temukan folder bernama `All-In-One-Version`.
-4. Jalankan file bernama `MAS_AIO.cmd`.
+3. Di dalam folder hasil ekstrak, temukan folder bernama _**All-In-One-Version**_.
+4. Jalankan file bernama _**MAS_AIO.cmd**_.
 5. Kamu akan melihat opsi aktivasi. Ikuti petunjuk di layar.
 6. Selesai.
 
@@ -58,12 +65,14 @@ irm https://massgrave.dev/get | iex
 
 ---
 
+#### Untuk MacOS
+
 * **[Office untuk macOS](office_for_mac.md)**
 * Untuk menjalankan skrip tanpa interaksi, lihat [di sini](command_line_switches.md).
 
 ---
 
-### Tidak Berfungsi ❓
+#### Tidak Berfungsi ❓
 
 * Jika kamu **tidak bisa menjalankan MAS** dengan metode PowerShell, silakan gunakan **Metode 2** di atas.
 * Jika MAS terbuka tapi menampilkan error, periksa langkah pemecahan masalah yang disorot dengan warna biru dan ikuti instruksinya.
@@ -71,13 +80,15 @@ irm https://massgrave.dev/get | iex
 
 ---
 
-:::note
+> NOTE
+<details>
+  <summary>Klik di sini untuk melihat</summary>
 
 - Perintah IRM di PowerShell mengunduh skrip dari URL tertentu, dan IEX menjalankannya.
 - Selalu periksa URL sebelum menjalankan perintah dan pastikan sumber terpercaya saat mengunduh file manual.
 - Hati-hati, beberapa menyebarkan malware yang menyamar sebagai MAS dengan mengubah URL di perintah IRM.
 
-:::
+</details>
 
 ---
 

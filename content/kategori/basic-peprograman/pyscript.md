@@ -49,7 +49,6 @@ Ya, tinggal eksekusi saja perintah buat buka
 
 ```python
 from os import system
-
 system('bash')
 ```
 
