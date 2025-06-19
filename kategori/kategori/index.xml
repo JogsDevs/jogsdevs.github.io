@@ -11,7 +11,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725265246161">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672522401687">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -24,7 +24,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725265246161');
+ const block = document.getElementById('code-block-1750323672522401687');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -50,10 +50,10 @@
  })();
 &lt;/script></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/kategori/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>&amp;lt;header&amp;gt;&lt;/code>: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.&lt;/li>
-&lt;li>&lt;code>&amp;lt;footer&amp;gt;&lt;/code>: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.&lt;/li>
-&lt;li>&lt;code>&amp;lt;main&amp;gt;&lt;/code>: Bagian utama dari konten halaman.&lt;/li>
-&lt;li>&lt;code>&amp;lt;section&amp;gt;&lt;/code>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
+&lt;li>&lt;strong>&lt;header>&lt;/strong>: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.&lt;/li>
+&lt;li>&lt;strong>&lt;footer>&lt;/strong>: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.&lt;/li>
+&lt;li>&lt;strong>&lt;main>&lt;/strong>: Bagian utama dari konten halaman.&lt;/li>
+&lt;li>&lt;strong>&lt;section>&lt;/strong>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
 &lt;/ul>
 &lt;p>Contoh struktur dasar HTML:&lt;/p>
 
@@ -61,7 +61,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725268699185">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672522959315">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -94,7 +94,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725268699185');
+ const block = document.getElementById('code-block-1750323672522959315');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');

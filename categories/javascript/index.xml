@@ -5,7 +5,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725271880733">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672528276428">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -26,7 +26,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725271880733');
+ const block = document.getElementById('code-block-1750323672528276428');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -57,7 +57,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725306589675">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672529439806">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">js&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -72,7 +72,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725306589675');
+ const block = document.getElementById('code-block-1750323672529439806');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -101,7 +101,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725306967831">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672532892314">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -117,7 +117,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725306967831');
+ const block = document.getElementById('code-block-1750323672532892314');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -146,19 +146,24 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725307357789">&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md rounded-t-md">
- &lt;pre tabindex="0">&lt;code>&amp;lt;script&amp;gt;
- function ubahTeks() {
- document.getElementById(&amp;#34;teks&amp;#34;).innerText = &amp;#34;Teks telah diubah!&amp;#34;;
- }
-&amp;lt;/script&amp;gt;&lt;/code>&lt;/pre>
+&lt;div class="code-block relative my-6" id="code-block-1750323672533321490">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">js&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">script&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">ubahTeks&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;teks&amp;#34;&lt;/span>).&lt;span style="color:#a6e22e">innerText&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Teks telah diubah!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">/script&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/div>
 &lt;/div>
 
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725307357789');
+ const block = document.getElementById('code-block-1750323672533321490');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -189,7 +194,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725274759155">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672531794939">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -202,7 +207,6 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Luas persegi adalah: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">luas&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">onclick&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;hitungLuas()&amp;#34;&lt;/span>&amp;gt;Hitung Luas Persegi&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/div>
 &lt;/div>
@@ -210,7 +214,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725274759155');
+ const block = document.getElementById('code-block-1750323672531794939');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');

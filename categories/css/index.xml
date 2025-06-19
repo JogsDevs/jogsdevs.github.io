@@ -6,7 +6,7 @@ Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725252277258">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672512975587">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">bash&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -19,7 +19,7 @@ Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725252277258');
+ const block = document.getElementById('code-block-1750323672512975587');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -51,7 +51,7 @@ dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive D
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750316725256423382">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750323672515894353">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -89,7 +89,7 @@ dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive D
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750316725256423382');
+ const block = document.getElementById('code-block-1750323672515894353');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
