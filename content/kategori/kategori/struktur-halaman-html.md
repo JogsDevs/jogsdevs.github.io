@@ -8,10 +8,10 @@ image: "images/kategori/html-logo.png"
 
 Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:
 
-- `<header>`: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.
-- `<footer>`: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.
-- `<main>`: Bagian utama dari konten halaman.
-- `<section>`: Membagi halaman menjadi bagian-bagian tertentu.
+- **<header>**: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.
+- **<footer>**: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.
+- **<main>**: Bagian utama dari konten halaman.
+- **<section>**: Membagi halaman menjadi bagian-bagian tertentu.
 
 Contoh struktur dasar HTML:
 
@@ -37,3 +37,4 @@ Contoh struktur dasar HTML:
     </footer>
 </body>
 </html>
+```

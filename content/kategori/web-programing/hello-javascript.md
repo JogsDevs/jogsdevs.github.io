@@ -23,7 +23,7 @@ function hello() {
 </script>
 ```
 
-```
+```js
 <script>
   function ubahTeks() {
     document.getElementById("teks").innerText = "Teks telah diubah!";

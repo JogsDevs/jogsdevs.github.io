@@ -18,5 +18,5 @@ Contoh kode untuk menghitung luas persegi:
     alert("Luas persegi adalah: " + luas);
   }
 </script>
-
 <button onclick="hitungLuas()">Hitung Luas Persegi</button>
+

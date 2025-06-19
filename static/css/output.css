@@ -2628,17 +2628,20 @@ pre, code{
 }
 
 .code-block {
+  text-align: left;
   z-index: 10;
   /* Pastikan di atas overlay zoom */
   position: relative;
 }
 
 .code-content pre {
+  text-align: left;
   margin: 0 !important;
   padding: 1rem !important;
 }
 
 .code-content code {
+  text-align: left;
   padding: 0 !important;
   background: transparent !important;
 }

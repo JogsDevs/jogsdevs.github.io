@@ -15,6 +15,7 @@ HTML (HyperText Markup Language) adalah fondasi dari semua halaman web. Beberapa
 - `<h1>` sampai `<h6>`: Heading dari besar ke kecil.
 - `<p>`: Paragraf.
 - `<a href="">`: Link ke halaman lain.
+```
 
 Contoh sederhana:
 
@@ -29,3 +30,4 @@ Contoh sederhana:
     <p>Ini adalah paragraf pertama saya di HTML.</p>
   </body>
 </html>
+```

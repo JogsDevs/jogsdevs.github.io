@@ -11,7 +11,7 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
 
 ## Headings
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+The following HTML **<h1>** **<h6>** elements represent six levels of section headings. **<h1>** is the highest section level while **<h6>** is the lowest.
 
 # H1
 
@@ -37,5 +37,5 @@ This is a [internal link](/posts/emoji-support) to another page. [This one](http
 
 ## Blockquotes
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a **<footer>** or **<cite>** element, and optionally with in-line changes such as annotations and abbreviations.
 

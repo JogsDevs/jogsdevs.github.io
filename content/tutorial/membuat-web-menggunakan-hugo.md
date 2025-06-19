@@ -9,8 +9,8 @@ Saya akan membuat tema Hugo custom yang meniru desain Petanikode.com. Mari kita 
 
 # Cheklist Persiapan Awal :
 
-1. [ ] Membuat kerangka tema
-2. [ ] Layout homepage
+1. [x] Membuat kerangka tema
+2. [x] Layout homepage
 3. [ ] Sistem grid artikel
 4. [ ] Sidebar kanan
 5. [ ] Navigasi header
