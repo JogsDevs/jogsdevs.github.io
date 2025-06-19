@@ -2,16 +2,18 @@
 &lt;ul>
 &lt;li>&lt;strong>Membuat Link&lt;/strong> dengan tag &lt;code>&amp;lt;a&amp;gt;&lt;/code>:&lt;/li>
 &lt;/ul>
-&lt;div class="relative group my-6 w-full">
- &lt;div class="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto flex justify-center items-center">
- &lt;pre class="m-0 text-center">
- &lt;code class="language-cmd">&lt;a href="https://www.example.com">Kunjungi Website&lt;/a>&lt;/code>
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+ &lt;code>&lt;div class="">&amp;lt;a href=&amp;#34;https://www.example.com&amp;#34;&amp;gt;Kunjungi Website&amp;lt;/a&amp;gt;&lt;/div>
+ 
+ &lt;/code>
  &lt;/pre>
  &lt;button
  class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
  data-code="&amp;lt;a href=&amp;#34;https://www.example.com&amp;#34;&amp;gt;Kunjungi Website&amp;lt;/a&amp;gt;">
  Copy
- &lt;/button></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
+ &lt;/button>
+&lt;/div></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>&amp;lt;header&amp;gt;&lt;/code>: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.&lt;/li>
 &lt;li>&lt;code>&amp;lt;footer&amp;gt;&lt;/code>: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.&lt;/li>
@@ -19,20 +21,55 @@
 &lt;li>&lt;code>&amp;lt;section&amp;gt;&lt;/code>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
 &lt;/ul>
 &lt;p>Contoh struktur dasar HTML:&lt;/p>
-&lt;div class="relative group my-6 w-full">
- &lt;div class="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto flex justify-center items-center">
- &lt;pre class="m-0 text-center">
- &lt;code class="language-cmd">&lt;!DOCTYPE html>
-&lt;html lang="id">
-&lt;head>
- &lt;meta charset="UTF-8">
- &lt;title>Struktur HTML&lt;/title>
-&lt;/head>
-&lt;body>
- &lt;header>
- &lt;h1>Selamat Datang di Website Saya&lt;/h1>
- &lt;/header>
- &lt;main>
- &lt;section>
- &lt;h2>Konten Utama&lt;/h2>
- &lt;p>Ini adalah konten utama halaman.&lt;/p></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item></channel></rss>
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+ &lt;code>&lt;div class="">&amp;lt;!DOCTYPE html&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;html lang=&amp;#34;id&amp;#34;&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;head&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;title&amp;gt;Struktur HTML&amp;lt;/title&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;/head&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;body&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;header&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;h1&amp;gt;Selamat Datang di Website Saya&amp;lt;/h1&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;/header&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;main&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;section&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;h2&amp;gt;Konten Utama&amp;lt;/h2&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;p&amp;gt;Ini adalah konten utama halaman.&amp;lt;/p&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;/section&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;/main&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;footer&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;p&amp;gt;© 2025 Website Saya&amp;lt;/p&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;/footer&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;/body&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;/html&amp;gt;&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;#34;id&amp;#34;&amp;gt;
+&amp;lt;head&amp;gt;
+ &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+ &amp;lt;title&amp;gt;Struktur HTML&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+ &amp;lt;header&amp;gt;
+ &amp;lt;h1&amp;gt;Selamat Datang di Website Saya&amp;lt;/h1&amp;gt;
+ &amp;lt;/header&amp;gt;
+ &amp;lt;main&amp;gt;
+ &amp;lt;section&amp;gt;
+ &amp;lt;h2&amp;gt;Konten Utama&amp;lt;/h2&amp;gt;
+ &amp;lt;p&amp;gt;Ini adalah konten utama halaman.&amp;lt;/p&amp;gt;
+ &amp;lt;/section&amp;gt;
+ &amp;lt;/main&amp;gt;
+ &amp;lt;footer&amp;gt;
+ &amp;lt;p&amp;gt;© 2025 Website Saya&amp;lt;/p&amp;gt;
+ &amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;">
+ Copy
+ &lt;/button>
+&lt;/div></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/kategori-lainya/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori-lainya/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item></channel></rss>

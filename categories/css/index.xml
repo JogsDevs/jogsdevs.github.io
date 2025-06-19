@@ -1,22 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on CodeCraft</title><link>https://jogsdevs.github.io/categories/css/</link><description>Recent content in Css on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/categories/css/index.xml" rel="self" type="application/rss+xml"/><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on CodeCraft</title><link>https://jogsdevs.github.io/categories/css/</link><description>Recent content in Css on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/categories/css/index.xml" rel="self" type="application/rss+xml"/><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugo-theme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugo-theme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
 Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain, hehe.&lt;/p>
 &lt;p>Kemarin (15/05/2023), saya mulai develop tema baru.&lt;/p>
-&lt;div class="relative group my-6 w-full">
- &lt;div class="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto flex justify-center items-center">
- &lt;pre class="m-0 text-center">
- &lt;code class="language-cmd">hugo new theme ardianta&lt;/code>
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+ &lt;code>&lt;div class="">hugo new theme ardianta&lt;/div>
+ 
+ &lt;/code>
  &lt;/pre>
  &lt;button
  class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
  data-code="hugo new theme ardianta">
  Copy
- &lt;/button>&lt;p>Untuk sementara, nama theme-nya adalah &lt;code>ardianta&lt;/code>. Mungkin nanti kalau sudah jadi akan saya ubah
+ &lt;/button>
+&lt;/div>&lt;p>Untuk sementara, nama theme-nya adalah &lt;code>ardianta&lt;/code>. Mungkin nanti kalau sudah jadi akan saya ubah
 dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
 &lt;p>Contoh CSS untuk responsive design:&lt;/p>
-&lt;div class="relative group my-6 w-full">
- &lt;div class="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto flex justify-center items-center">
- &lt;pre class="m-0 text-center">
- &lt;code class="language-cmd">&lt;style>
+&lt;div class="code-block relative group my-4">
+ &lt;pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
+ &lt;code>&lt;div class="">&amp;lt;style&amp;gt;&lt;/div>
+ &lt;div class=""> /* Default untuk desktop */&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 80%;&lt;/div>
+ &lt;div class=""> margin: 0 auto;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> /* Untuk tablet */&lt;/div>
+ &lt;div class=""> @media (max-width: 768px) {&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 90%;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class=""> /* Untuk ponsel */&lt;/div>
+ &lt;div class=""> @media (max-width: 480px) {&lt;/div>
+ &lt;div class=""> .container {&lt;/div>
+ &lt;div class=""> width: 100%;&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class=""> }&lt;/div>
+ &lt;div class="">&amp;lt;/style&amp;gt;&lt;/div>
+ &lt;div class="">&lt;/div>
+ &lt;div class="">&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;&lt;/div>
+ &lt;div class=""> &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;&lt;/div>
+ &lt;div class="">&amp;lt;/div&amp;gt;&lt;/div>
+ 
+ &lt;/code>
+ &lt;/pre>
+ &lt;button
+ class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
+ data-code="&amp;lt;style&amp;gt;
  /* Default untuk desktop */
  .container {
  width: 80%;
@@ -36,8 +68,12 @@ dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive D
  width: 100%;
  }
  }
-&lt;/style>
+&amp;lt;/style&amp;gt;
 
-&lt;div class="container">
- &lt;h1>Responsive Design&lt;/h1>
- &lt;p>Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&lt;/p></description></item></channel></rss>
+&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;
+ &amp;lt;h1&amp;gt;Responsive Design&amp;lt;/h1&amp;gt;
+ &amp;lt;p&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;">
+ Copy
+ &lt;/button>
+&lt;/div></description></item></channel></rss>
