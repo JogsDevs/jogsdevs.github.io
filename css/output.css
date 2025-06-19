@@ -2557,19 +2557,44 @@ video {
 
 /* Tambahkan custom styles setelahnya */
 
-pre, code{
+pre, code {
   max-width: 100%;
   overflow-x: auto;
-  word-wrap: break-word;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  display: block;
+  /* Ganti dari flex ke block */
+  text-align: left;
+  /* Rata kiri */
   padding: 1rem;
-  background-color:transparent;
-  color: #fff;
+  background-color: #1a202c;
+  /* Warna background yang lebih baik */
+  color: #e2e8f0;
+  /* Warna teks yang lebih kontras */
   font-size: medium;
-  border-radius: 0,5rem;
+  border-radius: 0.5rem;
+  /* Perbaiki penulisan */
+  font-family: 'Fira Code', 'Consolas', monospace;
+  /* Font khusus kode */
+  white-space: pre;
+  /* Pertahankan spasi dan line break */
+  word-break: keep-all;
+  /* Jangan pecah kata */
+  margin: 1rem 0;
+  /* Beri jarak */
+}
+
+/* Untuk kode inline */
+
+code:not(pre code) {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  background-color: #2d3748;
+}
+
+/* Container untuk pre */
+
+pre {
+  position: relative;
+  overflow: hidden;
 }
 
 /* Medium Zoom Styles */
