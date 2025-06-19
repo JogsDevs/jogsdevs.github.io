@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial Lainya on CodeCraft</title><link>https://jogsdevs.github.io/kategori/kategori/</link><description>Recent content in Tutorial Lainya on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/kategori/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Link dan Menyisipkan Gambar</title><link>https://jogsdevs.github.io/kategori/kategori/link-dan-gambar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori/link-dan-gambar/</guid><description>&lt;p>Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial Lainya on AbsoluteComp</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/</link><description>Recent content in Tutorial Lainya on AbsoluteComp</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/tutorial-lainya/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Link dan Menyisipkan Gambar</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/link-dan-gambar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/link-dan-gambar/</guid><description>&lt;p>Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Mebuat Link dengan&lt;/strong>:
 &lt;ul>
@@ -11,7 +11,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175827175687">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394353242103">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -24,7 +24,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175827175687');
+ const block = document.getElementById('code-block-1750341394353242103');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -48,7 +48,7 @@
  });
  });
  })();
-&lt;/script></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/kategori/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
+&lt;/script></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&lt;header>&lt;/strong>: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.&lt;/li>
 &lt;li>&lt;strong>&lt;footer>&lt;/strong>: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.&lt;/li>
@@ -61,7 +61,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175827679679">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394353752271">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -94,7 +94,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175827679679');
+ const block = document.getElementById('code-block-1750341394353752271');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -118,4 +118,4 @@
  });
  });
  })();
-&lt;/script></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/kategori/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/kategori/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item></channel></rss>
+&lt;/script></description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item></channel></rss>

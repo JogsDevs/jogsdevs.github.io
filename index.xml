@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AbsoluteComp</title><link>https://jogsdevs.github.io/</link><description>Recent content on AbsoluteComp</description><generator>Hugo</generator><language>id</language><lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>01 #Mengenal GIT</title><link>https://jogsdevs.github.io/tutorial/git/mengenal-git/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/git/mengenal-git/</guid><description>Apa itu Git dan Kenapa Penting bagi Programmer?</description></item><item><title>02 #Cara Install Git</title><link>https://jogsdevs.github.io/tutorial/git/cara-install/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/git/cara-install/</guid><description>Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan</description></item><item><title>Aktivated Method Chart</title><link>https://jogsdevs.github.io/tutorial/activation-method-chart/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/activation-method-chart/</guid><description>perbandingan metode aktivasi yang ditawarkan oleh Microsoft Activation Scripts.</description></item><item><title>Aktivated Windows End Office</title><link>https://jogsdevs.github.io/tutorial/window-acktivated/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/window-acktivated/</guid><description>Aktivasi windows dan office online.</description></item><item><title>Aplikasi Akuntansi Lite</title><link>https://jogsdevs.github.io/software/software-pos/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/software/software-pos/</guid><description>Kelola transaksi, laporan keuangan, dan invoice dengan mudah. Ringan dan tanpa instalasi rumit.</description></item><item><title>Backup Assist Desktop</title><link>https://jogsdevs.github.io/software/backup-assist-desktop/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/software/backup-assist-desktop/</guid><description>BackupAssist memungkinkan Anda memulihkan file atau folder tertentu dengan cepat.</description></item><item><title>Visual Studio Code</title><link>https://jogsdevs.github.io/software/software-vscode/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/software/software-vscode/</guid><description>Text editor ringan dari Microsoft dengan dukungan ekstensi yang luas.</description></item><item><title>Integrasi Mendeley Dengan Ms Word</title><link>https://jogsdevs.github.io/tutorial/integrasi-mendeley-dengan-microsoft-word/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/integrasi-mendeley-dengan-microsoft-word/</guid><description>&lt;h1 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-3xl">
+ Mengintegrasikan Mendeley dengan Microsoft Office: Panduan Lengkap
+ &lt;/h1>
+
+&lt;p>Mendeley adalah salah satu aplikasi referensi manajer yang paling banyak digunakan oleh peneliti, mahasiswa, dan profesional di berbagai bidang. Aplikasi ini memungkinkan kamu untuk mengorganisasi, menyimpan, dan mengelola referensi dengan mudah. Salah satu keunggulan Mendeley adalah kemampuannya untuk terintegrasi langsung dengan aplikasi Microsoft Office, seperti Microsoft Word.&lt;/p>
+&lt;p>Dalam artikel ini, kita akan membahas cara &lt;strong>install Mendeley&lt;/strong>, cara &lt;strong>menghubungkannya dengan Microsoft Word&lt;/strong>, serta beberapa masalah umum yang sering terjadi dan cara mengatasinya.&lt;/p></description></item><item><title>Cara Deploy Hugo + TailwindCSS ke GitHub Pages dengan GitHub Actions</title><link>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/deploy-hugo-github-pages/</guid><description>&lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Pendahuluan
+ &lt;/h2>
+
+&lt;p>Hugo adalah static site generator yang sangat cepat dan mudah digunakan. Setelah selesai membangun website dengan Hugo, langkah selanjutnya adalah melakukan deploy agar website dapat diakses publik melalui internet. Salah satu cara termudah adalah menggunakan GitHub Pages.&lt;/p>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Persiapan
+ &lt;/h2>
+
+&lt;p>Sebelum mulai deploy, pastikan kamu sudah memiliki:&lt;/p>
+&lt;ul>
+&lt;li>Website Hugo yang sudah jadi.&lt;/li>
+&lt;li>Akun GitHub.&lt;/li>
+&lt;li>Git sudah terinstal di komputer kamu.&lt;/li>
+&lt;/ul>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Langkah-langkah Deploy
+ &lt;/h2>
+
+
+ &lt;h3 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-xl">
+ 1. Inisialisasi Git Repository
+ &lt;/h3>
+
+&lt;p>Masuk ke direktori project Hugo kamu, lalu inisialisasi Git:&lt;/p></description></item><item><title>Kontak Kami</title><link>https://jogsdevs.github.io/kontak/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kontak/</guid><description>&lt;h1 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-3xl">
+ Kontak Kami
+ &lt;/h1>
+
+&lt;p>Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi kami melalui salah satu cara berikut:&lt;/p>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Alamat Email
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;strong>Email&lt;/strong>: &lt;a href="mailto:jogja.devs@gmail.com" 
+ class="text-yellow-600 hover:text-yellow-800 dark:text-yellow-400 dark:hover:text-yellow-200 underline">
+ 
+ 
+ mailto:jogja.devs@gmail.com
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Nomor Telepon
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;strong>Telepon&lt;/strong>: +62 8822 4130 806&lt;/li>
+&lt;/ul>
+&lt;hr>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Alamat
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;strong>Alamat Fisik&lt;/strong>: Jl. Glagahsari No.120, Warungboto, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164, Indonesia&lt;/li>
+&lt;/ul>
+&lt;hr>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Tulis Pesan Anda
+ &lt;/h2>
+
+&lt;form action="https://formspree.io/f/xnnddnlv" method="POST" class="space-y-4 max-w-xl mt-4">
+ &lt;div>
+ &lt;label for="name" class="block text-sm font-medium text-primary-700">Nama&lt;/label>
+ &lt;input
+ type="text"
+ name="name"
+ id="name"
+ required
+ placeholder="Masukkan nama Anda"
+ class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
+ >
+ &lt;/div>
+ &lt;div>
+ &lt;label for="email" class="block text-sm font-medium text-primary-700">Email&lt;/label>
+ &lt;input
+ type="email"
+ name="email"
+ id="email"
+ required
+ placeholder="nama@email.com"
+ class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
+ >
+ &lt;/div>
+ &lt;div>
+ &lt;label for="message" class="block text-sm font-medium text-primary-700">Pesan&lt;/label>
+ &lt;textarea
+ name="message"
+ id="message"
+ rows="4"
+ required
+ placeholder="Tulis pesan Anda di sini..."
+ class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
+ >&lt;/textarea>
+ &lt;/div>
+ &lt;/form></description></item><item><title>Tentang Kami</title><link>https://jogsdevs.github.io/tentang/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tentang/</guid><description>&lt;p>Selamat datang di &lt;strong>CodeCraft&lt;/strong> — sebuah situs yang didedikasikan untuk membagikan tutorial pemrograman dan teknologi dalam bahasa Indonesia dengan gaya yang mudah dipahami dan menyenangkan.&lt;/p>
+&lt;p>Kami percaya bahwa &lt;strong>belajar coding tidak harus sulit dan membosankan&lt;/strong>. Oleh karena itu, kami menghadirkan konten yang ringkas, visual, dan penuh ilustrasi agar setiap orang — mulai dari pemula hingga menengah — bisa menikmati proses belajar.&lt;/p>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Apa yang Kami Tawarkan?
+ &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;strong>Tutorial Pemrograman&lt;/strong>: HTML, CSS, JavaScript, Python, Go, dan banyak lagi.&lt;/li>
+&lt;li>&lt;strong>Panduan Praktis&lt;/strong>: Tips seputar dunia pengembangan perangkat lunak.&lt;/li>
+&lt;li>&lt;strong>Sumber Belajar&lt;/strong>: Referensi buku, tools, dan komunitas belajar.&lt;/li>
+&lt;li>&lt;strong>Artikel Rutin&lt;/strong>: Update mingguan dengan topik-topik menarik dan terkurasi.&lt;/li>
+&lt;/ul>
+
+ &lt;h2 class="mt-10 mb-4 font-bold text-gray-900 dark:text-white leading-tight
+ text-2xl">
+ Kenapa CodeCraft?
+ &lt;/h2>
+
+&lt;p>&lt;strong>Karena kami menyajikan&lt;/strong>:&lt;/p></description></item><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
+&lt;p>Contoh penggunaan event handler:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394360502722">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;tombol&amp;#34;&lt;/span>&amp;gt;Klik saya!&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pesan&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">tombol&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;tombol&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">tombol&lt;/span>.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;click&amp;#34;&lt;/span>, &lt;span style="color:#66d9ef">function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;pesan&amp;#34;&lt;/span>).&lt;span style="color:#a6e22e">innerText&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Tombol telah diklik!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394360502722');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>Hello JavaScript!</title><link>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/hello-javascript/</guid><description>&lt;p>JavaScript adalah bahasa pemrograman untuk membuat halaman web jadi interaktif.&lt;/p>
+&lt;p>Contoh kode pertama:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394362807976">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">js&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">hello&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello world!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394362807976');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394363282949">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Halo dari JavaScript!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Selamat datang di website saya!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394363282949');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394363853962">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">js&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">script&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">ubahTeks&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;teks&amp;#34;&lt;/span>).&lt;span style="color:#a6e22e">innerText&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Teks telah diubah!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">/script&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394363853962');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>&lt;p>&lt;button onclick="ubahTeks()">Klik aku!&lt;/button>&lt;/p></description></item><item><title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/pyscript/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/pyscript/</guid><description>&lt;p>Karena habis gentayangan di beberapa cloud workspace
+seperti c9.io, codenvy, dan glitch saya tiba-tiba
+kepikiran untuk mengakses shell dari web Python.&lt;/p>
+&lt;p>Di website Python, terdapat shell python yang
+bisa kita gunakan untuk ujicaoba kode python.&lt;/p>
+&lt;p>Lalu, bagaimana kalau&amp;hellip;&lt;/p>
+&lt;p>Kita akses shell seperti &lt;strong>bash&lt;/strong> atau &lt;strong>zsh&lt;/strong> di sana?&lt;/p>
+&lt;p>Ya, itu bisa.&lt;/p>
+&lt;p>Caranya:&lt;/p>
+&lt;p>Pertama saya coba-coba dulu menjalankan
+perintah Linux dengan mengimpor modul &lt;strong>os&lt;/strong>.&lt;/p>
+&lt;p>Di dalam modul &lt;strong>os&lt;/strong>, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: &lt;strong>system()&lt;/strong>.&lt;/p></description></item><item><title>Membuat Link dan Menyisipkan Gambar</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/link-dan-gambar/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/link-dan-gambar/</guid><description>&lt;p>Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mebuat Link dengan&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Tag&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394353242103">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://www.example.com&amp;#34;&lt;/span>&amp;gt;Kunjungi Website&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394353242103');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>Menghitung Luas Persegi dengan JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/menghitung-luas-persegi/</guid><description>&lt;p>Dalam tutorial ini, kita akan belajar cara menghitung luas persegi menggunakan JavaScript.&lt;/p>
+&lt;p>Contoh kode untuk menghitung luas persegi:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394365638595">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">hitungLuas&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Masukkan panjang sisi persegi:&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">luas&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span> &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#a6e22e">sisi&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Luas persegi adalah: &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">luas&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">onclick&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;hitungLuas()&amp;#34;&lt;/span>&amp;gt;Hitung Luas Persegi&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394365638595');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>New Hugo Theme 2023: Template Baru untuk Web Personal Saya</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/new-hugi-t-heme-2023/</guid><description>&lt;p>Sebenarnya sudah lama saya ingin ganti template web personal.
+Tapi nggak kunjung-kunjung dikerjakan. Malah keasikan ngerjain project yang lain, hehe.&lt;/p>
+&lt;p>Kemarin (15/05/2023), saya mulai develop tema baru.&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394343953886">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">bash&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new theme ardianta&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394343953886');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script>&lt;p>Untuk sementara, nama theme-nya adalah &lt;strong>Ichal&lt;/strong>. Mungkin nanti kalau sudah jadi akan saya ubah
+dan submit ke website Hugo.&lt;/p></description></item><item><title>Responsive Design dengan CSS</title><link>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/basic-peprograman/responsive-design/</guid><description>&lt;p>Responsive design adalah teknik untuk membuat halaman web agar bisa tampil dengan baik di berbagai ukuran layar, baik desktop, tablet, atau ponsel. Ini dicapai menggunakan media queries di CSS.&lt;/p>
+&lt;p>Contoh CSS untuk responsive design:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394350539977">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Default untuk desktop */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">80&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#66d9ef">auto&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Untuk tablet */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">768px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">90&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* Untuk ponsel */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">max-width&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">480px&lt;/span>&lt;span style="color:#f92672">)&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .&lt;span style="color:#a6e22e">container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">100&lt;/span>&lt;span style="color:#66d9ef">%&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;container&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;Responsive Design&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Halaman ini akan menyesuaikan dengan ukuran layar perangkat.&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394350539977');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>Struktur Halaman HTML</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/struktur-halaman-html/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/struktur-halaman-html/</guid><description>&lt;p>Dalam HTML, struktur halaman dibangun dengan menggunakan berbagai elemen yang memisahkan konten. Beberapa elemen yang sering digunakan adalah:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;header>&lt;/strong>: Menampilkan bagian atas halaman, biasanya berisi logo atau navigasi.&lt;/li>
+&lt;li>&lt;strong>&lt;footer>&lt;/strong>: Menampilkan bagian bawah halaman, sering berisi informasi hak cipta atau link tambahan.&lt;/li>
+&lt;li>&lt;strong>&lt;main>&lt;/strong>: Bagian utama dari konten halaman.&lt;/li>
+&lt;li>&lt;strong>&lt;section>&lt;/strong>: Membagi halaman menjadi bagian-bagian tertentu.&lt;/li>
+&lt;/ul>
+&lt;p>Contoh struktur dasar HTML:&lt;/p>
+
+
+
+
+
+&lt;div class="code-block relative my-6" id="code-block-1750341394353752271">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+ &lt;span class="code-language font-mono text-sm">html&lt;/span>
+ &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+ Salin
+ &lt;/button>
+ &lt;/div>&lt;div class="code-content overflow-x-auto bg-gray-900 rounded-b-md ">
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;id&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;UTF-8&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Struktur HTML&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">header&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;Selamat Datang di Website Saya&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">header&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">main&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;Konten Utama&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Ini adalah konten utama halaman.&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">main&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">footer&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;&amp;amp;copy; 2025 Website Saya&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">footer&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;script>
+ (function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ const block = document.getElementById('code-block-1750341394353752271');
+ if (!block) return;
+ 
+ const copyButton = block.querySelector('.copy-button');
+ if (!copyButton) return;
+ 
+ copyButton.addEventListener('click', function() {
+ const codeContent = block.querySelector('.code-content').textContent;
+ 
+ navigator.clipboard.writeText(codeContent).then(() => {
+ const originalText = this.textContent;
+ this.textContent = 'Tersalin!';
+ this.classList.add('bg-green-700');
+ 
+ setTimeout(() => {
+ this.textContent = originalText;
+ this.classList.remove('bg-green-700');
+ }, 2000);
+ }).catch(err => {
+ console.error('Gagal menyalin: ', err);
+ });
+ });
+ });
+ })();
+&lt;/script></description></item><item><title>Aplikasi Kasir POS</title><link>https://jogsdevs.github.io/software/software-kasir/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/software/software-kasir/</guid><description>Sistem kasir lengkap dengan fitur stok, laporan penjualan, dan dukungan multi-cabang.</description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/kategori/tutorial-lainya/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/tutorial-lainya/belajar-html/</guid><description>Tutorial lengkap HTML untuk pemula.</description></item><item><title>Belajar HTML Dasar</title><link>https://jogsdevs.github.io/tutorial/belajar-html/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/belajar-html/</guid><description>&lt;p>Di halaman ini, kamu bisa menjelajahi berbagai kategori tutorial dan artikel yang kami tawarkan. Kami telah mengorganisir konten kami untuk membantu kamu menemukan topik yang paling relevan dengan minat atau kebutuhan kamu.&lt;/p></description></item><item><title>Belajar Syntax Markdown Dasar</title><link>https://jogsdevs.github.io/tutorial/markdown-syntax/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>More Rich Content</title><link>https://jogsdevs.github.io/tutorial/more-rich-content/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/tutorial/more-rich-content/</guid><description>Tutorial lengkap Rich untuk pemula.</description></item></channel></rss>

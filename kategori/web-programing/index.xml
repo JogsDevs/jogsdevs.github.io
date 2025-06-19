@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programing on CodeCraft</title><link>https://jogsdevs.github.io/kategori/web-programing/</link><description>Recent content in Web Programing on CodeCraft</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/web-programing/index.xml" rel="self" type="application/rss+xml"/><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programing on AbsoluteComp</title><link>https://jogsdevs.github.io/kategori/web-programing/</link><description>Recent content in Web Programing on AbsoluteComp</description><generator>Hugo</generator><language>id</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jogsdevs.github.io/kategori/web-programing/index.xml" rel="self" type="application/rss+xml"/><item><title>Event Handler di JavaScript</title><link>https://jogsdevs.github.io/kategori/web-programing/event-handler/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://jogsdevs.github.io/kategori/web-programing/event-handler/</guid><description>&lt;p>JavaScript memungkinkan kita untuk menangani berbagai interaksi pengguna menggunakan event handler. Contohnya, menangani klik tombol.&lt;/p>
 &lt;p>Contoh penggunaan event handler:&lt;/p>
 
 
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175833985120">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394360502722">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -26,7 +26,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175833985120');
+ const block = document.getElementById('code-block-1750341394360502722');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -57,7 +57,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175836845689">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394362807976">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">js&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -72,7 +72,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175836845689');
+ const block = document.getElementById('code-block-1750341394362807976');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -101,7 +101,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175837235778">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394363282949">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -117,7 +117,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175837235778');
+ const block = document.getElementById('code-block-1750341394363282949');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -146,7 +146,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175837586213">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394363853962">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">js&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -163,7 +163,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175837586213');
+ const block = document.getElementById('code-block-1750341394363853962');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
@@ -194,7 +194,7 @@
 
 
 
-&lt;div class="code-block relative my-6" id="code-block-1750327175838199390">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+&lt;div class="code-block relative my-6" id="code-block-1750341394365638595">&lt;div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
  &lt;span class="code-language font-mono text-sm">html&lt;/span>
  &lt;button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
  Salin
@@ -214,7 +214,7 @@
 &lt;script>
  (function() {
  document.addEventListener('DOMContentLoaded', function() {
- const block = document.getElementById('code-block-1750327175838199390');
+ const block = document.getElementById('code-block-1750341394365638595');
  if (!block) return;
  
  const copyButton = block.querySelector('.copy-button');
