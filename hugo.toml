@@ -13,8 +13,25 @@ toc = true
 
 [markup]
 [markup.highlight]
-  # lineNos = true
-  noClasses = false
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ''
+  hl_inline = false
+  lineAnchors = ''
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true
+  style = 'monokai'
+  tabWidth = 4
+  wrapperClass = 'highlight'
+
+[markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
@@ -29,6 +46,7 @@ software = ["HTML"]  # Format khusus
 suffixes = ["html"]
 
 [params]
+  enableMediumZoom = true
   searchTypes = ["tutorial", "slug", "kategori"]
   teraboxBase = "https://terabox.com/s/"
   description = "Website resmi Jogja Devs, komunitas dan layanan developer Jogja."

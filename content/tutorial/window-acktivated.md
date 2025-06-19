@@ -29,7 +29,7 @@ Aktivator Windows dan Office open-source dengan metode aktivasi HWID, Ohook, TSf
 
 2. **Salin dan tempel kode berikut, lalu tekan enter.**  
 
-```pwsh
+```powershell
 irm https://get.activated.win | iex
 ```
 

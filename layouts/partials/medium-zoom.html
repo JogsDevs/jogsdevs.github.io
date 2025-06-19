@@ -1,0 +1,13 @@
+{{ if .Site.Params.enableMediumZoom }}
+  <!-- Load medium-zoom library -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js"></script>
+  
+  <!-- Load our custom initialization -->
+  <script defer src="{{ "js/medium-zoom.js" | relURL }}"></script>
+  
+  <!-- Load zoom template -->
+  {{ if not (.Page.Store.Get "hasZoomTemplate") }}
+    {{ .Page.Store.Set "hasZoomTemplate" true }}
+    {{ partial "zoom-template.html" . }}
+  {{ end }}
+{{ end }}

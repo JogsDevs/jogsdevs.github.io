@@ -103,6 +103,59 @@ pre, code{
   border-radius: 0,5rem;
 }
 
+/* Medium Zoom Styles */
+.zoom-target {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.medium-zoom-overlay {
+  z-index: 999;
+  background: var(--zoom-bg, rgba(0, 0, 0, 0.9)) !important;
+}
+
+.medium-zoom-image {
+  z-index: 1000;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.zoom-container {
+  position: relative;
+}
+
+.zoom-actions {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.zoom-actions button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.zoom-actions button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.zoom-actions button svg {
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
 @layer utilities {
 
   /* Kode custom utilities */
