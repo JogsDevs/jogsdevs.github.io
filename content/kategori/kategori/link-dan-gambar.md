@@ -8,6 +8,8 @@ image: "images/kategori/html-logo.png"
 
 Dalam HTML, kamu bisa membuat tautan dan menyisipkan gambar untuk memperkaya tampilan halaman. Berikut cara membuatnya:
 
-- **Membuat Link** dengan tag `<a>`:
+- **Mebuat Link dengan**:
+  - **Tag**
 ```html
 <a href="https://www.example.com">Kunjungi Website</a>
+```

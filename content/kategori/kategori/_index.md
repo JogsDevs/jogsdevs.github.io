@@ -1,5 +1,5 @@
 ---
-title: "Kategori List"
+title: "Tutorial Lainya"
 description: "Baca tutorial dalam kategori lainya seperti Mobile programing,Game programing,IoT, Blokchain, dan masih banyak lagi."
 icon: "align-vertical-justify-end"
 ---

@@ -1,20 +1,48 @@
-<div class="code-block relative group my-4">
-  <pre class="bg-gray-100 dark:bg-gray-800 p-3 rounded-sm overflow-x-auto text-sm">
-    <code>
-      {{- $lines := split (.Inner | htmlUnescape) "\n" -}}
-      {{- range $i, $line := $lines -}}
-        {{- $highlight := false -}}
-        {{- if in $line "// highlight-line" -}}
-          {{- $highlight = true -}}
-          {{- $line = replace $line "// highlight-line" "" -}}
-        {{- end -}}
-      <div class="{{ if $highlight }}bg-yellow-500/10 border-l-4 border-yellow-400 pl-2{{ end }}">{{ $line }}</div>
-        {{ end }}
-    </code>
-  </pre>
-  <button
-    class="copy-button absolute top-2 right-2 text-xs px-3 py-1 bg-yellow-400 text-black rounded-md shadow opacity-0 group-hover:opacity-100 transition"
-    data-code="{{ .Inner | htmlUnescape }}">
-    Copy
-  </button>
+{{/* Layout khusus untuk code block */}}
+{{ $lang := .Type }}
+{{ $code := .Inner }}
+{{ $id := printf "code-block-%d" now.UnixNano }}
+
+<div class="code-block relative my-6" id="{{ $id }}">
+  {{- if $lang -}}
+    <div class="code-header flex justify-between items-center bg-gray-800 text-gray-200 px-4 py-2 rounded-t-md">
+      <span class="code-language font-mono text-sm">{{ $lang }}</span>
+      <button class="copy-button text-sm bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded transition-colors">
+        Salin
+      </button>
+    </div>
+  {{- end -}}
+  
+  <div class="code-content overflow-x-auto bg-gray-900 rounded-b-md {{ if not $lang }}rounded-t-md{{ end }}">
+    {{ highlight $code $lang "" }}
+  </div>
 </div>
+
+<script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+      const block = document.getElementById('{{ $id }}');
+      if (!block) return;
+      
+      const copyButton = block.querySelector('.copy-button');
+      if (!copyButton) return;
+      
+      copyButton.addEventListener('click', function() {
+        const codeContent = block.querySelector('.code-content').textContent;
+        
+        navigator.clipboard.writeText(codeContent).then(() => {
+          const originalText = this.textContent;
+          this.textContent = 'Tersalin!';
+          this.classList.add('bg-green-700');
+          
+          setTimeout(() => {
+            this.textContent = originalText;
+            this.classList.remove('bg-green-700');
+          }, 2000);
+        }).catch(err => {
+          console.error('Gagal menyalin: ', err);
+        });
+      });
+    });
+  })();
+</script>

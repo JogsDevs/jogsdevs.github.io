@@ -15,7 +15,7 @@ Kemarin (15/05/2023), saya mulai develop tema baru.
 hugo new theme ardianta
 ```
 
-Untuk sementara, nama theme-nya adalah `ardianta`. Mungkin nanti kalau sudah jadi akan saya ubah
+Untuk sementara, nama theme-nya adalah **Ichal**. Mungkin nanti kalau sudah jadi akan saya ubah
 dan submit ke website Hugo.
 
 ## Desain Theme

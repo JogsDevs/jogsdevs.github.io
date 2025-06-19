@@ -156,6 +156,21 @@ pre, code{
   stroke-linecap: round;
 }
 
+.code-block {
+  z-index: 10; /* Pastikan di atas overlay zoom */
+  position: relative;
+}
+
+.code-content pre {
+  margin: 0 !important;
+  padding: 1rem !important;
+}
+
+.code-content code {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
 @layer utilities {
 
   /* Kode custom utilities */

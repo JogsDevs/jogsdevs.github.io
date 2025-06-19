@@ -15,17 +15,17 @@ bisa kita gunakan untuk ujicaoba kode python.
 
 Lalu, bagaimana kalau...
 
-Kita akses shell seperti `bash` atau `zsh` di sana?
+Kita akses shell seperti **bash** atau **zsh** di sana?
 
 Ya, itu bisa.
 
 Caranya:
 
 Pertama saya coba-coba dulu menjalankan
-perintah Linux dengan mengimpor modul `os`.
+perintah Linux dengan mengimpor modul **os**.
 
-Di dalam modul `os`, terdapat fungsi untuk menjalankan
-perintah Linux, yaitu: `system()`.
+Di dalam modul **os**, terdapat fungsi untuk menjalankan
+perintah Linux, yaitu: **system()**.
 
 ```python
 import os
@@ -42,10 +42,10 @@ Outputnya kira-kira begini:
 Melihat output dari perintah-peritah itu,
 saya jadi semakin penasaran...
 
-Bagaimana kalau kita buka `bash` atau `zsh`?
+Bagaimana kalau kita buka **bash** atau **zsh**?
 
 Ya, tinggal eksekusi saja perintah buat buka 
-`bash` dan `zsh`.
+**_bash_** dan **_zsh_**.
 
 ```python
 from os import system
@@ -65,9 +65,9 @@ Oke, mari kita coba cek ada apa saja di sini.
 
 ![GCC dan Ruby di website Python](/images/kategori/python/c-ruby.png)
 
-Woh! ada `gcc`, `g++`, dan juga `ruby`.
+Woh! ada **gcc**, **g++**, dan juga **ruby**.
 
-Kalau `git` ada tidak?
+Kalau **git** ada tidak?
 
 ![Git di website Python](/images/kategori/python/git.png)
 
@@ -75,6 +75,6 @@ Tentu saja ada.
 
 Oya, shell ini terhubung dengan internet.
 Coba saja kita clone repository dari Github
-atau coba download sesuatu dengan `wget` dan `curl`.
+atau coba download sesuatu dengan **wget** dan **curl**.
 
 ![Wget dari shell di Web Python](/images/kategori/python/wget.png)
