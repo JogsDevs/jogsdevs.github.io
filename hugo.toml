@@ -1,9 +1,9 @@
 baseURL = 'https://jogsdevs.github.io/'
-title = 'CodeCraft'
+title = 'AbsoluteComp'
 languageCode = 'id'
 
-[pagination] 
-  paperSize= 6
+[pagination]
+  paperSize = 6
 
 ignoreErrors = ["error-remote-getjson"]
 enableRobotsTXT = true
@@ -28,18 +28,18 @@ toc = true
   wrapperClass = 'highlight'
 
 [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+  endLevel = 3
+  ordered = false
+  startLevel = 2
 
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
 
 [outputs]
-home = ["HTML", "JSON"]
+home = ["HTML", "JSON", "RSS"]  # Tambah RSS untuk home
 section = ["HTML", "RSS"]
-software = ["HTML"]  # Format khusus
+page = ["HTML"]  # Wajib tambahkan ini
 
 [mediaTypes]
 [mediaTypes."text/html"]
@@ -47,8 +47,52 @@ suffixes = ["html"]
 
 [params]
   enableMediumZoom = true
-  searchTypes = ["tutorial", "slug", "kategori"]
+  searchTypes = ["tutorial", "software", "kategori"]  # Update dengan jenis baru
   teraboxBase = "https://terabox.com/s/"
   description = "Website resmi Jogja Devs, komunitas dan layanan developer Jogja."
-  keywords = "jogja, devs, komunitas, developer, jasa, website, teknologi"
+  keywords = "jogja, devs, komunitas, developer, jasa, website, teknologi, tutorial, software"
   author = "JogsDevs Team"
+  
+  # Tambahkan parameter baru untuk jenis konten
+  contentTypes = ["tutorial", "software", "kategori"]
+  
+  # Default values untuk setiap jenis konten
+  [params.defaults]
+    [params.defaults.software]
+    layout = "software"
+    version = "1.0"
+    license = "Open Source"
+    
+    [params.defaults.tutorial]
+    layout = "tutorial"
+    difficulty = "Beginner"
+    duration = "30 menit"
+    
+    [params.defaults.kategori]
+    layout = "kategori"
+    priority = 1
+
+# Konfigurasi menu navigasi
+[[menu.main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Tutorial"
+url = "/tutorial/"
+weight = 2
+
+[[menu.main]]
+name = "Software"
+url = "/software/"
+weight = 3
+
+[[menu.main]]
+name = "Kategori"
+url = "/kategori/"
+weight = 4
+
+# Konfigurasi author (opsional)
+[author]
+name = "JogsDevs Team"

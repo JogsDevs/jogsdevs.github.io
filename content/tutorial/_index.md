@@ -1,7 +1,5 @@
 ---
-title: "Kategori Populer 🏆"
-description: "Temukan berbagai tutorial dan artikel dalam berbagai kategori pengembangan web."
-page: kategori
+title: "Tutorial Populer 🏆"
 #icon: "book-open"
 ---
 

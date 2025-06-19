@@ -1,9 +1,9 @@
 ---
-title: "Kategori Populer 🏆"
-description: "Temukan berbagai tutorial dan artikel dalam berbagai kategori pengembangan web."
-page: kategori
-#icon: "book-open"
+title: "Tutorial GIT"
+description: "Baca tutorial dalam kategori lainya seperti Mobile programing,Game programing,IoT, Blokchain, dan masih banyak lagi."
+icon: "align-vertical-justify-end"
 ---
+
 
 # Selamat datang di Halaman Kategori
 
